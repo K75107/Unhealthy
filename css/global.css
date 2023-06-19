@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    }
+
+:root {
+    --green:#03C03C;
+    --dark-green:#00a030;
+    --yellow:#FFAE41;
+    --light-gray:rgb(245, 245, 245);
+    --dark-gray:rgb(199, 199, 199);
+    --darker-gray:rgb(33, 33, 33);
+    --orange: #ff9a13;
+    --lobster:'Lobster', cursive;
+    --poppins: 'Poppins', sans-serif;
+    --montserrat :'Montserrat', sans-serif;
+    --shadow1: drop-shadow(-2px 6px 3px rgba(0, 0, 0, 0.1));
+    --shadow2: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.2));        
+}
+
+
+button {
+    /* Reset all default styles */
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    overflow: visible;
+    outline: none;
+  }

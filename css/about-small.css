@@ -1,0 +1,159 @@
+#display1{
+    height: calc(100vw * 350/720);
+    overflow: hidden;
+    position: relative;
+    top: 60px;
+}
+#bg{
+    position: absolute;
+        top: 0px;
+        width: calc(100vw * 1500/720);
+}
+
+#display1 h1{
+    position: relative;
+        text-align: center;
+        top: calc(100vw * 35/720);
+    font-size: calc(100vw * 30/720);
+    font-family: var(--montserrat);
+    color: white;
+   
+}
+#display1 h2{
+    position: relative;
+        text-align: center;
+        top: calc(100vw * 20/720);
+    font-size: calc(100vw * 80/720);
+    font-family: var(--lobster);
+    font-weight: normal;
+    color: white;
+}
+#display2{
+    height: calc(100vw * 800/720);
+    position: relative;
+        top: 0px;
+
+}
+#saying_holder{
+    width: calc(100vw * 600/720);
+    height: calc(100vw *400/720);
+    position: relative;
+        top:calc(100vw * 350/720);
+        left:calc(100vw * 50/720);
+        border-radius: calc(100vw * 30/720);
+    background-color: white;
+    filter: var(--shadow2);
+    z-index: 1;
+}
+#saying_holder p{
+    position: absolute;
+        top: calc(100vw * 10/720);
+        padding: calc(100vw * 80/720);
+        
+    font-size: calc(100vw * 25/720);
+    font-family: var(--montserrat);
+    color: var(--orange);
+    
+}
+#qoute1{
+    position: absolute;
+        top: calc(100vw * 40/720);
+        left: calc(100vw * 40/720);
+        font-size: calc(100vw * 70/720);
+        color: var(--orange);
+    font-family: var(--montserrat);
+}
+#qoute2{
+    position: absolute;
+        bottom: calc(100vw * 20/720);
+        right: calc(100vw * 50/720);
+        font-size: calc(100vw * 70/720);
+        color: var(--orange);
+    font-family: var(--montserrat);
+}
+#girl{
+    position: absolute;
+        top: 0px;
+        right: 0px;
+    width: calc(100vw *700/720);
+}
+
+/*Display3*/
+
+#display3{
+    width: calc(100vw * 720/720);
+    height: calc(100vw * 910/720);
+    position: relative;
+
+}
+#display3 h1{
+    position: relative;
+        text-align: center;
+        top: calc(100vw * 30/720);
+    font-family: var(--lobster);
+    font-weight: normal;
+    font-size: calc(100vw * 60/720);
+}
+
+
+#authors{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_holder{
+    width: calc(100vw * 600/720);
+    height: calc(100vw * 300/720);
+    border-radius: calc(100vw * 30/720);
+    background-color: white;
+    filter: var(--shadow2);
+    position: relative;
+        top: calc(100vw * 20/720);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: calc(100vw * 50/720);
+   
+}
+
+
+.img_holder{
+    width: calc(100vw * 250/720);
+    height: calc(100vw * 250/720);
+    border-radius: calc(100vw * 15/720);
+    position: absolute;
+        top: calc(100vw * 23/720);
+        left: calc(100vw *23/720);
+    overflow: hidden;
+}
+.img_holder img{
+    width: inherit;
+    height: inherit;
+}
+.txt_holder{
+    width: calc(100vw * 280/720);
+    height: calc(100vw * 250/720);
+    border-radius: calc(100vw * 15/720);
+    position: absolute;
+        top: calc(100vw * 23/720);
+        right: calc(100vw *23/720);
+
+}
+.txt_holder p{
+    position: relative;
+        text-align: center;
+        top: calc(100vw *0/720);
+    padding: calc(100vw * 38/720);
+    font-size: calc(100vw *14/720);
+    font-family: var(--montserrat);
+}
+
+
+/*Footer*/
+#back_orange{
+    position: absolute;
+    width: calc(100vw * 720/720);
+    bottom:  calc(100vw * 400/720)!important;
+    z-index: 0;
+}

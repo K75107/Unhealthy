@@ -1,0 +1,241 @@
+body{
+    overflow-x: hidden;
+}
+/*Navigation*/
+
+#check,.check1{
+    display: none;
+}
+
+#more{
+    display: none;
+}
+
+    .menu{
+    width: calc(100vw * 1920/1920);
+    height:  60px;
+    position: fixed;
+        top: 0px;
+    background-color: white;
+    display: flex;
+        z-index: 3;
+        filter: var(--shadow1)
+    }
+
+    .sidebar_holder{
+        display: flex; 
+        width: inherit;
+        height: inherit;
+        justify-content: space-between;
+    }
+    .sidebar{
+        display: flex; 
+        width: inherit;
+        height: inherit;
+        justify-content: space-between;
+    }
+
+    #logo1{
+        position: fixed;
+        height: 51px;
+        top: 5px;
+        margin-right: auto;
+
+    }
+
+    .menu ul{
+        margin-left: -40px;
+        display: flex;
+        width: inherit;
+        height: inherit;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        
+    }   
+
+
+    .menu ul li{
+        justify-content: flex-end;
+        font-size: 16px;
+        font-family: var(--poppins);
+        margin: 0 calc(100vw * 40/1920);
+        
+    }
+ 
+    .menu ul li a,#recipes-button{
+        text-decoration: none;
+        color: rgb(116, 116, 116);
+    }
+
+    .menu ul li i:not(.fa-search),#user1, #toggle-submenu{
+        display: none;
+    }
+    /*search*/
+    
+      .search-bar {
+        margin-left: auto;
+      }
+    
+      .search-icon {
+        position: relative;
+            top:2px;
+            left: 35px;
+        color: rgb(83, 83, 83);
+      }
+    
+      .search-bar input[type="text"] {
+        padding: 9px 40px;
+        border: none;
+        width: calc(100vw * 230/1920);
+        border-radius: 34px;
+        background-color: rgb(230, 230, 230);
+
+
+        transition: background-color 0.3s;
+      }
+    
+      .search-bar input[type="text"]:focus {
+        background-color: #e8e8e8;
+        outline: none;
+      }
+    
+      #contact_us_button{
+        margin-right: calc(100vw * -30/1920);
+      }
+
+      #sign{
+        color: white;
+      }
+
+      #sign_up{
+        background-color: var(--green);
+        color: white;
+        padding:5px 25px; 
+        border-radius: 34px;
+        margin-left: -5px;
+        font-size: 16px;
+        font-family: var(--poppins);
+        
+      }
+
+     
+    
+
+    /* Sub Menu*/ 
+        .submenu{
+            display: none;
+        }
+        .menu ul li:hover .submenu{
+            display: block;
+            background-color: white;
+            position: fixed;
+            height: 130px;
+            padding: 10px calc(100vw * 15/1920);
+            z-index: 2;
+        }
+        .menu ul li:hover .submenu ul{
+            display:block;
+            }
+        .submenu ul li {
+            padding: 10px 0;
+            margin:  0 calc(100vw * 10/1920);
+        }
+
+    /*Hover*/
+        .menu ul li a:hover, .search-icon:hover,.search-bar input[type="text"]:focus{
+            color: var(--green)
+        }
+        #sign_up:hover{
+            background-color: #00B737;
+        }
+        .active{
+            color: #00B737;
+        }
+
+        
+
+
+/*End-Navigation Bar*/ 
+
+
+@media screen and (max-width: 860px) {
+    .search-bar input[type="text"] ,.search-icon{
+        display: none;
+      }
+  }
+  
+
+@media screen and (max-width: 700px) {
+    #sign,.search-icon{
+        display: none;
+      }
+    #user{
+        display: contents;
+    }
+    #sign_up{
+        padding:5px 10px; 
+    }
+  }
+
+  
+/*Start of Footer*/
+
+#Footer{
+    position: relative;
+        top: 0px;
+        height: calc(100vw * 250/1920);
+        width: calc(100vw * 1920/1920);
+    background-color: var(--orange);
+    display: flex;
+    overflow: visible;
+
+
+}
+.footer_holder{
+    width: calc(100vw * 350/1920);
+    height: calc(100vw * 200/1920);
+    margin: auto
+}
+#back_orange{
+    position: absolute;
+    width: calc(100vw * 1920/1920);
+    bottom: 0;
+}
+/*Footer first*/
+.footer_holder img{
+    position: relative;
+        top: 0px;
+    width: inherit;
+}
+.footer_holder h1, .footer_holder h2{
+    font-family: var(--poppins);
+    font-weight: normal;
+    color: white;
+    font-size: calc(100vw * 20/1920);
+
+}
+.f1 h1{
+    position: relative;
+        left: calc(100vw * 35/1920);
+        outline: solid white 1px;
+        padding:calc(100vw * 3/1920);
+        width: calc(100vw * 160/1920);
+
+}
+.f1 h2{
+    position: relative;
+    font-size: calc(100vw * 15/1920);
+    left: calc(100vw * 35/1920);
+    top: calc(100vw *10/1920);
+}
+.f2 h1{
+    font-weight: bold;
+    position: relative;
+    top: calc(100vw * 50/1920);
+}
+.f2 h2{
+    position: relative;
+    top: calc(100vw*50/1920);
+}
+
