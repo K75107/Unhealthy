@@ -18,7 +18,15 @@ function show2(){
   var element = document.getElementsByClassName("recipe2")[0];
   element.style.display = "flex";
 }
+function exit3() {
+  var element = document.getElementsByClassName("recipe3")[0];
+  element.style.display = "none";
+}
 
+function show3(){
+  var element = document.getElementsByClassName("recipe3")[0];
+  element.style.display = "flex";
+}
 
 
 

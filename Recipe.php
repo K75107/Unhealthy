@@ -86,7 +86,7 @@
                                     <i class="fa-solid fa-star" id="item3_star4"></i>
                                     <i class="fa-solid fa-star" id="item3_star5"></i> 
                                     <div class="reactions">
-                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <button onclick="show3()"><i class="fa-solid fa-circle-plus"></i></button>
                                         <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
                                     </div>
                                     
@@ -230,6 +230,9 @@
         <button id="exit" onclick="exit1()">X</button>
        <div class="recipe_holder">
             <div class="recipe_full">
+                <div class="recipe_footer">
+                    <img src="images/recipe/recipes_info/footer.png" alt="">
+                </div>
                 <div class="img_holder">
                     <img src="images/recipe/recipes_info/dalgona.jpeg">
                     <div class="title_holder">
@@ -274,6 +277,8 @@
                     </ol>
 
                 </div>
+                <div class="recipe_footer">
+                </div>
             </div>
        </div>
     </div>
@@ -281,6 +286,9 @@
         <button id="exit" onclick="exit2()">X</button>
        <div class="recipe_holder">
             <div class="recipe_full">
+                <div class="recipe_footer">
+                    <img src="images/recipe/recipes_info/footer.png" alt="">
+                </div>
                 <div class="img_holder">
                     <img src="images/recipe/recipes_info/french_fries.jpg">
                     <div class="title_holder">
@@ -293,22 +301,22 @@
                     <h1>Ingredients</h1>
                     <hr>
                     <ul>
-                        <li>2 tablespoons instant coffee</li>
-                        <li>2 tablespoons sugar</li>
-                        <li>2 tablespoons hot water</li>
-                        <li>Milk (any type you prefer)</li>
-                        <li>Ice cubes (optional)</li>
+                        <li>4 large potatoes</li>
+                        <li>Oil for frying</li>
+                        <li>Salt</li>
+                        <li>Seasonings (optional): garlic powder, paprika or black pepper</li>
+
                     </ul>
                     <div class="additional_holder">
-                        <h2>Suit your taste</h2>
-                        <h3>You can experiment and add additional flavors</h3>
+                        <h2>Dip into deliciousness!</h2>
+                        <h3>Customize your taste with our dips</h3>
                         <ul>
-                            <li>Vanilla Extract</li>
-                            <li>Cocoa Powder</li>
-                            <li>Cinnamon</li>
-                            <li>Flavored Syrups</li>
-                            <li>Coconut Milk</li>
-                            <li>Matcha Powder</li>
+                            <li>Ketchup</li>
+                            <li>Mayonnaise</li>
+                            <li>Cheese Sauce</li>
+                            <li>Mustard</li>
+                            <li>Barbecue Sauce</li>
+                            <li>Aioli</li>
                         </ul>
                     </div>
                 </div>
@@ -316,14 +324,74 @@
                     <hr>
                     <h1>Procedure</h1>
                     <ol>
-                        <li>In a mixing bowl, combine the instant coffee, granulated sugar, and hot water.</li>
-                        <li>Using an electric hand mixer or a whisk, vigorously beat the mixture for about 2-3 minutes until it becomes thick and frothy. If using a whisk, it will take longer and require more effort.</li>
-                        <li>Fill a glass with milk of your choice, leaving some space at the top for the whipped coffee.</li>
-                        <li>Spoon the whipped coffee mixture on top of the milk. You can spoon it as is or use a piping bag or a ziplock bag with a corner snipped off to create a decorative pattern.</li>
-                        <li>If desired, you can sprinkle some cocoa powder, cinnamon, or crushed cookies on top for added flavor and presentation.</li>
-                        <li>If you prefer a cold drink, you can add ice cubes to the glass before pouring the milk and whipped coffee.</li>
+                        <li>Peel the potatoes and cut them into long, thin strips, about 1/4 inch (0.6 cm) thick.</li>
+                        <li>Place the potato strips in a bowl of cold water and let them soak for 30 minutes.</li>
+                        <li>Drain the potatoes and pat them dry with a towel.</li>
+                        <li>Heat vegetable oil in a deep fryer or large pot to 375°F (190°C).</li>
+                        <li>Fry the potato strips in batches for about 5-7 minutes or until golden brown and crispy.</li>
+                        <li>Remove the fries from the oil, drain excess oil on paper towels, and sprinkle with salt to taste.</li>
+                        <li>Season the fries with salt and any additional seasonings of your choice, such as garlic powder, paprika, black pepper, or dried herbs like rosemary or thyme. Toss them gently to ensure even coating.</li>
                     </ol>
 
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="items_holder recipe3">
+        <button id="exit" onclick="exit3()">X</button>
+       <div class="recipe_holder">
+            <div class="recipe_full">
+                <div class="recipe_footer">
+                    <img src="images/recipe/recipes_info/footer.png" alt="">
+                </div>
+                <div class="img_holder">
+                    <img src="images/recipe/recipes_info/french_fries.jpg">
+                    <div class="title_holder">
+                        <h1>French Fries</h1>
+                        <hr>
+                        <p>French fries are crispy potato strips enjoyed as a popular snack worldwide. They're deep-fried, seasoned with salt, and often served with dipping sauces.</p>
+                    </div>
+                </div>
+                <div class="ingredients_holder">
+                    <h1>Ingredients</h1>
+                    <hr>
+                    <ul>
+                        <li>4 large potatoes</li>
+                        <li>Oil for frying</li>
+                        <li>Salt</li>
+                        <li>Seasonings (optional): garlic powder, paprika or black pepper</li>
+
+                    </ul>
+                    <div class="additional_holder">
+                        <h2>Dip into deliciousness!</h2>
+                        <h3>Customize your taste with our dips</h3>
+                        <ul>
+                            <li>Ketchup</li>
+                            <li>Mayonnaise</li>
+                            <li>Cheese Sauce</li>
+                            <li>Mustard</li>
+                            <li>Barbecue Sauce</li>
+                            <li>Aioli</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="procedure_holder">
+                    <hr>
+                    <h1>Procedure</h1>
+                    <ol>
+                        <li>Peel the potatoes and cut them into long, thin strips, about 1/4 inch (0.6 cm) thick.</li>
+                        <li>Place the potato strips in a bowl of cold water and let them soak for 30 minutes.</li>
+                        <li>Drain the potatoes and pat them dry with a towel.</li>
+                        <li>Heat vegetable oil in a deep fryer or large pot to 375°F (190°C).</li>
+                        <li>Fry the potato strips in batches for about 5-7 minutes or until golden brown and crispy.</li>
+                        <li>Remove the fries from the oil, drain excess oil on paper towels, and sprinkle with salt to taste.</li>
+                        <li>Season the fries with salt and any additional seasonings of your choice, such as garlic powder, paprika, black pepper, or dried herbs like rosemary or thyme. Toss them gently to ensure even coating.</li>
+                    </ol>
+
+                </div>
+            </div>
+       </div>
+    </div>
 
 <?php
     include 'Footer.php';

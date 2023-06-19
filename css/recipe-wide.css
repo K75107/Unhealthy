@@ -341,7 +341,7 @@
     font-family: var(--lobster);
     font-weight: normal;
     font-size: calc(100vw * 55/1920);
-    color: var(--green);
+    color: var(--orange);
     position: relative;
         text-align: center;
         top: calc(100vw * 20/1920);
@@ -379,7 +379,7 @@
     font-family: var(--lobster);
     font-size: calc(100vw * 40/1920);
     font-weight: normal;
-    color: var(--green);
+    color: var(--orange);
     position: relative;
         text-align: center;
         top: calc(100vw *10/1920);   
@@ -418,7 +418,7 @@
     font-family: var(--lobster);
     font-size: calc(100vw * 25/1920);
     font-weight: normal;
-    color: var(--green);
+    color: var(--orange);
     position: relative;
         text-align: center;
         top: calc(100vw *10/1920);
@@ -477,6 +477,18 @@
     margin: calc(100vw * 25/1920) 0;
 }
 /*Procedure- End*/
+
+.recipe_footer{
+    position: absolute;
+        bottom: 0px;
+    width: 100%;
+    height: calc(100vw * 200/1920);
+}
+.recipe_footer img{
+    width: 100%;
+    position: absolute;
+        bottom: 0;
+}
 
 /*Footer*/
 #back_orange{
