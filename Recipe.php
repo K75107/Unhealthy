@@ -324,10 +324,6 @@
                         <li>If you prefer a cold drink, you can add ice cubes to the glass before pouring the milk and whipped coffee.</li>
                     </ol>
 
-                </div>
-            </div>
-       </div>
-    </div>
 
 <?php
     include 'Footer.php';
