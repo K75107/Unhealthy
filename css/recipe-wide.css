@@ -165,7 +165,7 @@
     transition: .5s ease-in-out;
 
 }
-#item1_star1, #item1_star2,#item1_star3{
+#item1_star1, #item1_star2,#item1_star3,#item1_star4,#item1_star5{
     color: var(--orange);
 }
 
@@ -173,10 +173,16 @@
     color: var(--orange);
 }
 
-#item3_star1, #item3_star2,#item3_star3,#item3_star4{
+#item3_star1, #item3_star2,#item3_star3,#item3_star4,#item4_star5{
     color: var(--orange);
 }
 #item4_star1, #item4_star2,#item4_star3,#item4_star4{
+    color: var(--orange);
+}
+#item5_star1, #item5_star2,#item5_star3,#item5_star4{
+    color: var(--orange);
+}
+#item6_star1, #item6_star2,#item6_star3,#item6_star4{
     color: var(--orange);
 }
 .price{
@@ -414,13 +420,14 @@
 }
 
 .additional_holder{
-    outline: solid 1px var(--darker-gray);
+    outline: solid 1px rgb(156, 156, 156);
     position: relative;
         top: calc(100vw * 50/1920);
         left: calc(100vw * 25/1920);
     width: calc(100vw * 350/1920);
     height: calc(100vw * 400/1920);
 }
+
 .ingredients_holder h2{
     font-family: var(--lobster);
     font-size: calc(100vw * 25/1920);
@@ -440,6 +447,22 @@
         top: calc(100vw *10/1920);
         left: calc(100vw * 35/1920);
     width: 80%;
+}
+
+.note_holder{
+    outline: solid 1px rgb(156, 156, 156);
+    position: relative;
+        top: calc(100vw * 80/1920);
+        left: calc(100vw * 25/1920);
+    width: calc(100vw * 350/1920);
+    height: calc(100vw * 100/1920);
+}
+.note_holder p{
+    font-family: var(--poppins);
+    font-size: calc(100vw * 13/1920);
+    position: absolute;
+        text-align: center;
+        top: calc(100vw * 15/1920);
 }
 /*Ingredients- End*/
 

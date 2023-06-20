@@ -129,7 +129,7 @@
     transition: .5s ease-in-out;
 
 }
-#item1_star1, #item1_star2,#item1_star3{
+#item1_star1, #item1_star2,#item1_star3,#item1_star4,#item1_star5{
     color: var(--orange);
 }
 
@@ -137,7 +137,16 @@
     color: var(--orange);
 }
 
-#item3_star1, #item3_star2,#item3_star3,#item3_star4{
+#item3_star1, #item3_star2,#item3_star3,#item3_star4,#item4_star5{
+    color: var(--orange);
+}
+#item4_star1, #item4_star2,#item4_star3,#item4_star4{
+    color: var(--orange);
+}
+#item5_star1, #item5_star2,#item5_star3,#item5_star4{
+    color: var(--orange);
+}
+#item6_star1, #item6_star2,#item6_star3,#item6_star4{
     color: var(--orange);
 }
 .price{
@@ -260,7 +269,7 @@
         left: calc(100vw *10/720);
         top: 80px;
     width: calc(100vw * 680/720);
-    height:calc(100vw * 1100/720);
+    height:calc(100vw * 1050/720);
     border-radius: calc(100vw * 20/720);
     background-color: white;
     filter: var(--shadow1);
@@ -392,15 +401,30 @@
         left: calc(100vw * 35/720);
     width: 80%;
 }
+.note_holder{
+    outline: solid 1px var(--darker-gray);
+    position: relative;
+        top: calc(100vw * 80/720);
+        left: calc(100vw * 25/720);
+    width: calc(100vw * 250/720);
+    height: calc(100vw * 80/720);
+}
+.note_holder p{
+    font-family: var(--poppins);
+    font-size: calc(100vw * 10/720);
+    position: absolute;
+        text-align: center;
+        top: calc(100vw * 10/720);
+    padding: calc(100vw * 5/720);
+}
 /*Ingredients- End*/
 
 /*Procedure- Start*/
 .procedure_holder{
     position: absolute;
         right: calc(100vw * 10/720);
-        bottom: calc(100vw * 20/720);
     width: calc(100vw * 360/720);
-    height: calc(100vw * 670/720);     
+    height: calc(100vw * 550/720);     
 }
 
 .procedure_holder h1{

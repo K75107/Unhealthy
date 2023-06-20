@@ -36,7 +36,24 @@ function show4(){
   var element = document.getElementsByClassName("recipe4")[0];
   element.style.display = "flex";
 }
+function exit5() {
+  var element = document.getElementsByClassName("recipe5")[0];
+  element.style.display = "none";
+}
 
+function show5(){
+  var element = document.getElementsByClassName("recipe5")[0];
+  element.style.display = "flex";
+}
+function exit6() {
+  var element = document.getElementsByClassName("recipe6")[0];
+  element.style.display = "none";
+}
+
+function show6(){
+  var element = document.getElementsByClassName("recipe6")[0];
+  element.style.display = "flex";
+}
 
 
 

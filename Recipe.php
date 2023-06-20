@@ -110,7 +110,7 @@
                             </div>
                             <div class="item_holder"  id="item5">
                                 <div class="items"> 
-                                    <img src="images/recipe/trend/corndog .png" class="photo">  
+                                    <img src="images/recipe/trend/corndog.png" class="photo">  
                                     <div class="names_item">Corndog</div>
                                     <i class="fa-solid fa-star" id="item5_star1"></i>
                                     <i class="fa-solid fa-star" id="item5_star2"></i>
@@ -118,23 +118,23 @@
                                     <i class="fa-solid fa-star" id="item5_star4"></i>
                                     <i class="fa-solid fa-star" id="item5_star5"></i> 
                                     <div class="reactions">
-                                        <button><i class="fa-solid fa-circle-plus"></i></button>
-                                        <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                        <button onclick="show5()"><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A delicious snack<br>made of a hot dog coated in sweet cornbread batter, fried until crispy. It's a popular treat often enjoyed at fairs and outdoor events.</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="item_holder"  id="item6">
                                 <div class="items"> 
-                                    <img src="images/recipe/trend/corndog .png" class="photo">  
-                                    <div class="names_item">Corndog</div>
-                                    <i class="fa-solid fa-star" id="item5_star1"></i>
-                                    <i class="fa-solid fa-star" id="item5_star2"></i>
-                                    <i class="fa-solid fa-star" id="item5_star3"></i>
-                                    <i class="fa-solid fa-star" id="item5_star4"></i>
-                                    <i class="fa-solid fa-star" id="item5_star5"></i> 
+                                    <img src="images/recipe/trend/churros.png" class="photo">  
+                                    <div class="names_item">Churros</div>
+                                    <i class="fa-solid fa-star" id="item6_star1"></i>
+                                    <i class="fa-solid fa-star" id="item6_star2"></i>
+                                    <i class="fa-solid fa-star" id="item6_star3"></i>
+                                    <i class="fa-solid fa-star" id="item6_star4"></i>
+                                    <i class="fa-solid fa-star" id="item6_star5"></i> 
                                     <div class="reactions">
-                                        <button><i class="fa-solid fa-circle-plus"></i></button>
-                                        <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                        <button onclick="show6()"><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">Coated in cinnamon<br>and sugar, they are a sweet and delightful treat often enjoyed with chocolate sauce.</div>
                                     </div>
                                 </div>
                             </div>
@@ -438,7 +438,7 @@
                     <h1>Ingredients</h1>
                     <hr>
                     <ul>
-                        <li>225 grams spaghetti or your choice of pasta</li>
+                        <li>225 grams pasta</li>
                         <li>115 grams diced bacon</li>
                         <li>2 large eggs</li>
                         <li>1/2 cup grated Parmesan cheese</li>
@@ -472,6 +472,114 @@
                         <li>Drain fried chicken on paper towels.</li>
                         <li>Let it rest for a few minutes before serving.</li>
                         <li>Serve the simple fried chicken hot and enjoy it as is or with your favorite sides, such as mashed potatoes, coleslaw, or cornbread.</li>
+                    </ol>
+
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="items_holder recipe5">
+        <button id="exit" onclick="exit5()">X</button>
+       <div class="recipe_holder">
+            <div class="recipe_full">
+                <div class="recipe_footer">
+                    <img src="images/recipe/recipes_info/footer.png" alt="">
+                </div>
+                <div class="img_holder">
+                    <img src="images/recipe/recipes_info/corndog.jpg">
+                    <div class="title_holder">
+                        <h1>Corndog</h1>
+                        <hr>
+                        <p>A delicious snack made of a hot dog coated in sweet cornbread batter, fried until crispy. It's a popular treat often enjoyed at fairs and outdoor events.</p>
+                    </div>
+                </div>
+                <div class="ingredients_holder">
+                    <h1>Ingredients</h1>
+                    <hr>
+                    <ul>
+                        <li>6 hot dogs</li>
+                        <li>1 cup cornmeal</li>
+                        <li>1/2 cup all-purpose flour</li>
+                        <li>1 tablespoon sugar</li>
+                        <li>1 teaspoon baking powder</li>
+                        <li>1/2 teaspoon salt</li>
+                        <li>1 cup milk</li>
+                        <li>6 slices of cheddar cheese (cut into strips)</li>
+                        <li>Vegetable oil, for frying</li>
+                        <li>Wooden skewers or popsicle sticks</li>
+
+                    </ul>
+                    <div class="note_holder">
+                        <p>NOTE:<br>Please be cautious when working with hot oil and follow appropriate safety guidelines.</p>
+                    </div>
+                </div>
+                <div class="procedure_holder">
+                    <hr>
+                    <h1>Procedure</h1>
+                    <ol>
+                        <li>In a bowl, combine the cornmeal, flour, sugar, baking powder, and salt.</li>
+                        <li>Gradually pour in the milk while stirring until a thick batter forms.</li>
+                        <li>Insert a wooden skewer or popsicle stick into each hot dog.</li>
+                        <li>Take a strip of cheddar cheese and wrap it around each hot dog.</li>
+                        <li>Dip each cheese-wrapped hot dog into the batter, ensuring it is fully coated.</li>
+                        <li>Heat vegetable oil in a pot about 350°F (175°C).</li>
+                        <li>Fry the coated corndogs until golden brown</li>
+                        <li>Use tongs or a slotted spoon to remove the corndogs from the oil and let them drain on a paper towel.
+                        
+                    </ol>
+
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="items_holder recipe6">
+        <button id="exit" onclick="exit6()">X</button>
+       <div class="recipe_holder">
+            <div class="recipe_full">
+                <div class="recipe_footer">
+                    <img src="images/recipe/recipes_info/footer.png" alt="">
+                </div>
+                <div class="img_holder">
+                    <img src="images/recipe/recipes_info/churros.jpg">
+                    <div class="title_holder">
+                        <h1>Churros</h1>
+                        <hr>
+                        <p>Coated in cinnamon and sugar, they are a sweet and delightful treat often enjoyed with chocolate sauce.</p>
+                    </div>
+                </div>
+                <div class="ingredients_holder">
+                    <h1>Ingredients</h1>
+                    <hr>
+                    <ul>
+                        <li>1 cup water</li>
+                        <li>2 tablespoons sugar</li>
+                        <li>1/2 teaspoon salt</li>
+                        <li>1 cup all-purpose flour</li>
+                        <li>2 tablespoons vegetable oil</li>
+                        <li>1 cup milk</li>
+                        <li>1/4 cup sugar </li>
+                        <li>1 teaspoon ground cinnamon</li>
+                        <li>1 teaspoon vanilla extract</li>
+                        <li>Chocolate sauce or dulce de leche, for dipping (optional)</li>
+
+                    </ul>
+                    <div class="note_holder">
+                        <p>NOTE:<br>Please be cautious when working with hot oil and follow appropriate safety guidelines.</p>
+                    </div>
+                </div>
+                <div class="procedure_holder">
+                    <hr>
+                    <h1>Procedure</h1>
+                    <ol>
+                        <li>In a saucepan, bring water, sugar, salt, and vegetable oil to a boil.</li>
+                        <li>Remove the saucepan from the heat and stir in the vanilla extract.</li>
+                        <li>Gradually add the flour to the mixture, stirring until a smooth dough forms.</li>
+                        <li>Heat vegetable oil in a deep pot or frying pan to190°C.</li>
+                        <li>Transfer the dough to a piping bag and pipe 4-6 inch strips into the hot oil.</li>
+                        <li>Fry until golden brown, around 2-4 minutes. Drain on paper towels.</li>
+                        <li>In a bowl, combine sugar and ground cinnamon for coating.</li>
+                        <li>While the churros are still warm, roll them in the cinnamon-sugar mixture until coated.</li>
+                        
                     </ol>
 
                 </div>
