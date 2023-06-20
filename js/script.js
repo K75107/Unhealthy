@@ -27,7 +27,15 @@ function show3(){
   var element = document.getElementsByClassName("recipe3")[0];
   element.style.display = "flex";
 }
+function exit4() {
+  var element = document.getElementsByClassName("recipe4")[0];
+  element.style.display = "none";
+}
 
+function show4(){
+  var element = document.getElementsByClassName("recipe4")[0];
+  element.style.display = "flex";
+}
 
 
 

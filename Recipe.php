@@ -87,7 +87,7 @@
                                     <i class="fa-solid fa-star" id="item3_star5"></i> 
                                     <div class="reactions">
                                         <button onclick="show3()"><i class="fa-solid fa-circle-plus"></i></button>
-                                        <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                        <div class="item_description">Crispy, golden fried<br> chicken: tender meat, flavorful crunch. Enjoy as a main dish or in sandwiches and salads. A delicious and versatile favorite.</div>
                                     </div>
                                     
                                 </div>
@@ -102,13 +102,28 @@
                                     <i class="fa-solid fa-star" id="item4_star4"></i>
                                     <i class="fa-solid fa-star" id="item4_star5"></i> 
                                     <div class="reactions">
-                                        <button><i class="fa-solid fa-circle-plus"></i></button>
-                                        <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                        <button onclick="show4()"><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A classic Italian<br>pasta dish. It features crispy bacon or pancetta, eggs, Parmesan cheese, and black pepper, creating a rich and satisfying combination. </div>
                                     </div>
                                     
                                 </div>
                             </div>
                             <div class="item_holder"  id="item5">
+                                <div class="items"> 
+                                    <img src="images/recipe/trend/corndog .png" class="photo">  
+                                    <div class="names_item">Corndog</div>
+                                    <i class="fa-solid fa-star" id="item5_star1"></i>
+                                    <i class="fa-solid fa-star" id="item5_star2"></i>
+                                    <i class="fa-solid fa-star" id="item5_star3"></i>
+                                    <i class="fa-solid fa-star" id="item5_star4"></i>
+                                    <i class="fa-solid fa-star" id="item5_star5"></i> 
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item_holder"  id="item6">
                                 <div class="items"> 
                                     <img src="images/recipe/trend/corndog .png" class="photo">  
                                     <div class="names_item">Corndog</div>
@@ -190,6 +205,11 @@
                                     
                                 </div>
                             </div>
+                            <div class="item_holder"  id="item6">
+                                <div class="items"> 
+                                    
+                                </div>
+                            </div>
 
 
                     </div>
@@ -223,22 +243,26 @@
                                     
                                 </div>
                             </div>
+                            <div class="item_holder"  id="item6">
+                                <div class="items"> 
+                                    
+                                </div>
+                            </div>
 
                     </div>        
     </div>
     <div class="items_holder recipe1">
         <button id="exit" onclick="exit1()">X</button>
        <div class="recipe_holder">
-            <div class="recipe_full">
                 <div class="recipe_footer">
                     <img src="images/recipe/recipes_info/footer.png" alt="">
                 </div>
                 <div class="img_holder">
                     <img src="images/recipe/recipes_info/dalgona.jpeg">
                     <div class="title_holder">
-                        <h1>Dalgona Coffee</h1>
                         <hr>
-                        <p>A trendy whipped coffee treat from South Korea. Equal parts instant coffee, sugar, and hot water whipped to a creamy froth. Spoon over milk for a visually striking and deliciously sweet caffeine fix. Perfect for coffee lovers and social media enthusiasts alike.</p>
+                        <h1>Dalgona Coffee</h1>
+                        <p>A trendy whipped coffee treat from South Korea. Equal parts instant coffee, sugar, and hot water whipped to a creamy froth. Spoon over milk for a visually striking and deliciously sweet caffeine fix.</p>
                     </div>
                 </div>
                 <div class="ingredients_holder">
@@ -279,7 +303,6 @@
                 </div>
                 <div class="recipe_footer">
                 </div>
-            </div>
        </div>
     </div>
     <div class="items_holder recipe2">
@@ -345,21 +368,23 @@
                     <img src="images/recipe/recipes_info/footer.png" alt="">
                 </div>
                 <div class="img_holder">
-                    <img src="images/recipe/recipes_info/french_fries.jpg">
+                    <img src="images/recipe/recipes_info/fried_chicken.jpg">
                     <div class="title_holder">
-                        <h1>French Fries</h1>
+                        <h1>Fried Chicken</h1>
                         <hr>
-                        <p>French fries are crispy potato strips enjoyed as a popular snack worldwide. They're deep-fried, seasoned with salt, and often served with dipping sauces.</p>
+                        <p>Crispy, golden fried chicken: tender meat, flavorful crunch. Enjoy as a main dish or in sandwiches and salads. A delicious and versatile favorite.</p>
                     </div>
                 </div>
                 <div class="ingredients_holder">
                     <h1>Ingredients</h1>
                     <hr>
                     <ul>
-                        <li>4 large potatoes</li>
+                        <li>4 chicken drumsticks or thighs</li>
                         <li>Oil for frying</li>
-                        <li>Salt</li>
-                        <li>Seasonings (optional): garlic powder, paprika or black pepper</li>
+                        <li>1 cup all-purpose flour</li>
+                        <li>1 teaspoon salt</li>
+                        <li>1 teaspoon black pepper</li>
+                        <li>1/2 teaspoon garlic powder</li>
 
                     </ul>
                     <div class="additional_holder">
@@ -379,20 +404,80 @@
                     <hr>
                     <h1>Procedure</h1>
                     <ol>
-                        <li>Peel the potatoes and cut them into long, thin strips, about 1/4 inch (0.6 cm) thick.</li>
-                        <li>Place the potato strips in a bowl of cold water and let them soak for 30 minutes.</li>
-                        <li>Drain the potatoes and pat them dry with a towel.</li>
-                        <li>Heat vegetable oil in a deep fryer or large pot to 375°F (190°C).</li>
-                        <li>Fry the potato strips in batches for about 5-7 minutes or until golden brown and crispy.</li>
-                        <li>Remove the fries from the oil, drain excess oil on paper towels, and sprinkle with salt to taste.</li>
-                        <li>Season the fries with salt and any additional seasonings of your choice, such as garlic powder, paprika, black pepper, or dried herbs like rosemary or thyme. Toss them gently to ensure even coating.</li>
+                        <li>Mix flour, salt, black pepper, paprika, and garlic powder in a dish.</li>
+                        <li>Pat the chicken pieces dry with a paper towel.</li>
+                        <li>Coat chicken with the flour mixture, shaking off excess.</li>
+                        <li>Heat vegetable oil in a large pan over medium heat.</li>
+                        <li>Carefully place coated chicken in the hot oil, skin side down. Avoid crowding the pan.</li>
+                        <li>Fry chicken for 6-8 minutes per side until crispy, golden, and internal temperature reaches 165°F (74°C).</li>
+                        <li>Drain fried chicken on paper towels.</li>
+                        <li>Let it rest for a few minutes before serving.</li>
+                        <li>Serve the simple fried chicken hot and enjoy it as is or with your favorite sides, such as mashed potatoes, coleslaw, or cornbread.</li>
                     </ol>
 
                 </div>
             </div>
        </div>
     </div>
+    <div class="items_holder recipe4">
+        <button id="exit" onclick="exit4()">X</button>
+       <div class="recipe_holder">
+            <div class="recipe_full">
+                <div class="recipe_footer">
+                    <img src="images/recipe/recipes_info/footer.png" alt="">
+                </div>
+                <div class="img_holder">
+                    <img src="images/recipe/recipes_info/carbonara.jpg">
+                    <div class="title_holder">
+                        <h1>Carbonara</h1>
+                        <hr>
+                        <p>A classic Italian pasta dish. It features crispy bacon or pancetta, eggs, Parmesan cheese, and black pepper, creating a rich and satisfying combination. </p>
+                    </div>
+                </div>
+                <div class="ingredients_holder">
+                    <h1>Ingredients</h1>
+                    <hr>
+                    <ul>
+                        <li>225 grams spaghetti or your choice of pasta</li>
+                        <li>115 grams diced bacon</li>
+                        <li>2 large eggs</li>
+                        <li>1/2 cup grated Parmesan cheese</li>
+                        <li>Freshly ground black pepper</li>
+                        <li>Salt</li>
 
+                    </ul>
+                    <div class="additional_holder">
+                        <h2>Add ons</h2>
+                        <h3>Color your food pallete</h3>
+                        <ul>
+                            <li>Spinach</li>
+                            <li>Mushrooms</li>
+                            <li>Cream</li>
+                            <li>Fresh Herbs</li>
+                            <li>Extra Cheese</li>
+                            <li>Garlic</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="procedure_holder">
+                    <hr>
+                    <h1>Procedure</h1>
+                    <ol>
+                        <li>Mix flour, salt, black pepper, paprika, and garlic powder in a dish.</li>
+                        <li>Pat the chicken pieces dry with a paper towel.</li>
+                        <li>Coat chicken with the flour mixture, shaking off excess.</li>
+                        <li>Heat vegetable oil in a large pan over medium heat.</li>
+                        <li>Carefully place coated chicken in the hot oil, skin side down. Avoid crowding the pan.</li>
+                        <li>Fry chicken for 6-8 minutes per side until crispy, golden, and internal temperature reaches 165°F (74°C).</li>
+                        <li>Drain fried chicken on paper towels.</li>
+                        <li>Let it rest for a few minutes before serving.</li>
+                        <li>Serve the simple fried chicken hot and enjoy it as is or with your favorite sides, such as mashed potatoes, coleslaw, or cornbread.</li>
+                    </ol>
+
+                </div>
+            </div>
+       </div>
+    </div>
 <?php
     include 'Footer.php';
 ?>

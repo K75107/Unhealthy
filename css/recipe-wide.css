@@ -90,8 +90,8 @@
     position: relative;
     background-color: white;
     border-radius: calc(100vw * 20/1920);
-        width: calc(100vw * 330/1920);
-        height: calc(100vw * 330/1920);
+        width: calc(100vw * 300/1920);
+        height: calc(100vw * 300/1920);
         filter:drop-shadow( -2px 2px 2px rgba(0, 0, 0,.3));
         overflow: hidden;
         transition: 0.5s ease-out;
@@ -174,6 +174,9 @@
 }
 
 #item3_star1, #item3_star2,#item3_star3,#item3_star4{
+    color: var(--orange);
+}
+#item4_star1, #item4_star2,#item4_star3,#item4_star4{
     color: var(--orange);
 }
 .price{
@@ -336,6 +339,7 @@
     height: calc(100vw * 250/1920);
     border-radius: calc(100vw * 30/1920);
     background-color: white;
+    padding: 0;
 }
 .title_holder h1{
     font-family: var(--lobster);
@@ -348,8 +352,8 @@
 }
 
 .title_holder hr{
-    position: relative;
-        top: calc(100vw * 30/1920);
+    position: absolute;
+        top: calc(100vw * 90/1920);
         width: 90%;
         left: calc(100vw *20/1920);
 }
@@ -382,7 +386,8 @@
     color: var(--orange);
     position: relative;
         text-align: center;
-        top: calc(100vw *10/1920);   
+        top: calc(100vw *10/1920);  
+   
 }
 .ingredients_holder hr{
     position: relative;
@@ -399,7 +404,9 @@
     font-size: calc(100vw * 20/1920);
     position: relative;
         top: calc(100vw * 20/1920);
-        left: calc(100vw * 10/1920);
+        left: calc(100vw * 50/1920);
+    padding: 0;
+    width: calc(100vw * 300/1920); 
 }
 .ingredients_holder ul li{
     margin: calc(100vw * 20/1920) 0;
@@ -409,10 +416,10 @@
 .additional_holder{
     outline: solid 1px var(--darker-gray);
     position: relative;
-        top: calc(100vw * 80/1920);
+        top: calc(100vw * 50/1920);
         left: calc(100vw * 25/1920);
     width: calc(100vw * 350/1920);
-    height: calc(100vw * 430/1920);
+    height: calc(100vw * 400/1920);
 }
 .ingredients_holder h2{
     font-family: var(--lobster);
@@ -471,7 +478,8 @@
     position: relative;
         width: calc(100vw * 550/1920);
         top: calc(100vw * 20/1920);
-        left: calc(100vw * 10/1920);
+        left: calc(100vw * 50/1920);
+    padding: 0;
 }
 .procedure_holder ol li{
     margin: calc(100vw * 25/1920) 0;

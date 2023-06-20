@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 #logo1 {
   position: fixed;
   height: 51px;
