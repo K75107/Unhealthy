@@ -24,7 +24,7 @@
     filter: var(--shadow1);
     margin: auto;
     overflow: hidden;
-
+    transform: scale(1.1);
 }
 
 /*Sign_Up*/

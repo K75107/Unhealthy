@@ -1,0 +1,185 @@
+.display{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    top: 0px;
+        width: calc(100vw * 1920/1920);
+        height: calc(100vw * 969/1920);
+        background-color: var(--light-gray);
+
+}
+
+
+
+/*Slides*/
+.slide_frame{
+    position: absolute;
+        top:calc(100vw * 60/1920);
+        left:calc(100vw * 10/1920);
+    width:calc(100vw * 1000/1920);
+    height: calc(100vw * 920/1920);
+    overflow: hidden;
+}   
+/*
+@-webkit-keyframes slide_animation{
+    0% { top: calc(100vw * -0/1920);}
+    30% { top: calc(100vw * 0/1920);}
+    35% { top: calc(100vw * -900/1920);}
+    60% { top: calc(100vw * -900/1920);}
+    65% { top: calc(100vw * -1800/1920);}
+    95% { top: calc(100vw * -1800/1920);}
+    100% { top: calc(100vw * -1800/1920);}
+    
+    
+}
+*/
+.slideshow{
+
+    width:calc(100vw * 1000/1920);
+    height: calc(100vw * 2700/1920);
+    position: relative;
+        top: 0;        
+
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 30s;
+
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:normal;
+    -webkit-animation-play-state: running;
+
+
+}
+.slide{
+    position: relative;
+
+    width:calc(100vw * 1000/1920);
+    height: calc(100vw * 900/1920);
+
+
+}
+.first{
+
+}
+.second{
+
+}
+.third{
+
+}
+
+
+/*Form*/
+.message_holder{
+    background-color: white;
+    position: absolute;
+        top: calc(100vw * 150/1920);
+        right: calc(100vw * 250/1920);
+    width: calc(100vw * 500/1920);
+    height: calc(100vw * 600/1920);
+    filter: var(--shadow2);
+}
+
+
+.message_holder h1{
+    font-family: var(--montserrat);
+    font-size: calc(100vw * 40/1920);
+    position: relative;
+        margin-top: calc(100vw * 20/1920);
+        left: calc(100vw * 20/1920);
+}
+.message_holder h2{
+    font-family: var(--montserrat);
+    font-size: calc(100vw * 20/1920);
+    position: relative;
+        left: calc(100vw * 20/1920);
+    font-weight: normal;
+}
+.message_holder hr{
+    width: 90%;
+    position: relative;
+        margin-top: calc(100vw * 10/1920);
+        left: calc(100vw * 20/1920);
+        
+}
+#first_name,#last_name,#email,#message{
+    padding: calc(100vw * 15/1920);
+    border-radius: calc(100vw * 5/1920);
+    border: calc(100vw * 1/1980) solid rgb(133, 133, 133);
+    position: relative;
+        left: calc(100vw * 20/1920);
+        margin-top: calc(100vw * 20/1920);
+        margin-right: calc(100vw * 10/1920);
+        font-family: var(--montserrat);
+}
+#last_name{
+    width: calc(100vw * 205/1920);
+}
+#email{
+    width: calc(100vw * 422/1920);
+}
+#message{
+    width: calc(100vw * 422/1920);
+    height: calc(100vw *150/1920);
+    font-family: var(--montserrat);
+}
+#send{
+    font-size: calc(100vw * 20/1920);
+    font-family: var(--poppins);
+    padding: calc(100vw * 10/1920) calc(100vw * 15/1920);
+    background-color: var(--green);
+    color: white;
+    border-radius: calc(100vw * 10/1920);
+    position: relative;
+        left: calc(100vw * 160/1920);
+        margin-top: calc(100vw * 20/1920);
+
+}
+.message_holder h3{
+    font-family: var(--montserrat);
+    font-size: calc(100vw * 12/1920);
+    position: relative;
+        left: calc(100vw * 100/1920);
+        margin-top: calc(100vw * 30/1920);
+    font-weight: normal;
+}
+#policy{
+    color: var(--green);
+}
+/*First Slide*/
+.text_holder{
+    position: relative;
+        top: calc(100vw * 80/1920);
+        left: calc(100vw * 470/1920);
+    width:calc(100vw * 500/1920);
+    height: calc(100vw * 400/1920);
+    
+}
+.text_holder h1{
+    font-family: var(--lobster);
+    font-weight: normal;
+    font-size: calc(100vw * 100/1920);
+}
+.text_holder p{
+    font-family: var(--montserrat);
+    font-weight: normal;
+    font-size: calc(100vw * 20/1920);
+    width: calc(100vw * 400/1920);
+}
+.first img{
+    position: absolute;
+        width: calc(100vw * 700/1920);
+        top: calc(100vw * 100/1920);
+        left: calc(100vw * 50/1920);
+
+    }
+
+
+/*Footer*/
+#back_orange{
+    position: absolute;
+    width: calc(100vw * 1920/1920);
+    bottom:  calc(100vw * 165/1920)!important;
+    z-index: 0;
+}

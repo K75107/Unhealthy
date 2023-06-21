@@ -35,7 +35,12 @@
         <div class="slide_frame">
             <div class="slideshow">
                 <div class="slide first">
-                    <div class="text_holder"></div>
+                    <img src="images/contact/chef1.png" alt="">
+                    <div class="text_holder">
+                    <h1>Contact Us</h1>
+                    <p>Connecting with us is just a click away! Reach out and let's create something amazing together.</p>
+                    </div>
+                    
                 </div>
                 <div class="slide second">
 
@@ -47,6 +52,17 @@
         </div>
       
         <div class="message_holder">
+          <h1>Get in touch</h1>
+          <h2>It's quick and easy.</h2>
+          <hr>
+          <form>
+            <input type="email" id="first_name" name="first_name" placeholder="First Name">
+            <input type="email" id="last_name" name="last_name" placeholder="Last Name">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="Message"></textarea>    
+          </form>
+          <button id="send">Send Message</button>
+          <h3>By clicking send, you agree to our <button id="policy">privacy policy.</button></h3>
 
         </div>
 

@@ -1,0 +1,70 @@
+.display{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    top: 0px;
+        width: calc(100vw * 720/720);
+        height: calc(100vw * 969/720);
+        background-color: rgb(230, 230, 230);
+}
+
+
+
+
+/*Slides*/
+.slide_frame{
+    position: absolute;
+        top:calc(100vw * 60/720);
+        left:0;
+    width:calc(100vw * 720/720);
+    height: calc(100vw * 500/720);
+    background-color: aqua;
+
+}   
+
+@-webkit-keyframes slide_animation{
+    0% { left: calc(100vw * -0/720);}
+    30% { left: calc(100vw * 0/720);}
+    35% { left: calc(100vw * -720/720);}
+    60% { left: calc(100vw * -720/720);}
+    65% { left: calc(100vw * -1440/720);}
+    95% { left: calc(100vw * -1440/720);}
+    100% { left: calc(100vw * -1440/720);}
+}
+
+
+.slideshow{
+    background-color: yellow;
+    width:calc(100vw * 2700/720);
+    height: calc(100vw * 500/720);
+    display: flex;
+    position: relative;
+        top: 0;        
+
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 30s;
+
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:normal;
+    -webkit-animation-play-state: running;
+
+
+}
+.slide{
+    position: relative;
+
+    width:calc(100vw * 720/720);
+    height: calc(100vw * 500/720);
+
+}
+.first{
+    background-color: blue;
+}
+.second{
+    background-color: orange;
+}
+.third{
+    background-color: blue;
+}

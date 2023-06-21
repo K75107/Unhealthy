@@ -28,7 +28,7 @@
 <body>
 
   <?php
-      include 'Header.php';
+      include 'header.php';
   ?>
 
   <div id="display1"> 
@@ -54,7 +54,7 @@
                 <h1>Your Way to</h1>
                 <h2>Unhealthy Lifestyle</h2>
                 <p>"Welcome to Unhealthy: Indulge in Deliciously<br>Decadent Recipes!"</p>
-                <button>Learn More</button>
+                <button>Show Recipes</button>
               </div>
             </div>
             <div class="slide" id="second">
@@ -63,7 +63,7 @@
                   <h1>Dive into</h1>
                   <h2>Culinary Sin</h2>
                   <p>"Unhealthy - Where Excess is<br>Celebrated and Flavor<br>Reigns Supreme!"</p>
-                  <button>Learn More</button>
+                  <button>Show Recipes</button>
                 </div>
             </div>
             <div class="slide third">
@@ -72,7 +72,7 @@
                   <h1>Unleash Your</h1>
                   <h2>Culinary Desires</h2>
                   <p>"Immerse Yourself in Flavorsome Pleasures! <br>Discover a World of IrresistibleRecipes<br>Awaiting Your Indulgence."</p>
-                  <button>Learn More</button>
+                  <button>Show Recipes</button>
                 </div>
             </div>
             <div class="slide fourth">
@@ -81,7 +81,7 @@
                   <h1>Embark on a</h1>
                   <h2>Decadent Journey</h2>
                   <p>"Explore the Art of Indulgence! Delight in<br>Exquisite Creations that Transcend<br>the Ordinary."</p>
-                  <button>Learn More</button>
+                  <button>Show Recipes</button>
                 </div>
             </div>
             <div class="slide fifth">
@@ -90,7 +90,7 @@
                 <h1>Your Way to</h1>
                 <h2>Unhealthy Lifestyle</h2>
                 <p>"Welcome to Unhealthy: Indulge in Deliciously<br>Decadent Recipes!"</p>
-                <button>Learn More</button>
+                <button>Show Recipes</button>
               </div>
             </div>
           <!--Slides-End-->
