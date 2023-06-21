@@ -211,8 +211,9 @@ body{
 .footer_holder h1, .footer_holder h2{
     font-family: var(--poppins);
     font-weight: normal;
-    color: white;
+    color: rgb(227, 227, 227);
     font-size: calc(100vw * 20/1920);
+    text-decoration: none;
 
 }
 .f1 h1{
@@ -223,7 +224,7 @@ body{
         width: calc(100vw * 160/1920);
 
 }
-.f1 h2{
+.f1 a{
     position: relative;
     font-size: calc(100vw * 15/1920);
     left: calc(100vw * 35/1920);
@@ -234,8 +235,14 @@ body{
     position: relative;
     top: calc(100vw * 50/1920);
 }
-.f2 h2{
+.f2 a{
     position: relative;
     top: calc(100vw*50/1920);
+    text-decoration: none;
+}
+
+/*hover*/
+.footer_holder h2:hover{
+    color:white;
 }
 

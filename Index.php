@@ -128,17 +128,26 @@
       <p>“At Unhealthy, we embrace the sheer joy of indulgence and celebrate the irresistible allure of sinful treats. Here, we invite you to dive into a world of mouth-watering recipes that will satisfy your cravings and awaken your taste buds.”</p>
     </div>
     <div id="orange_holder2">
-      <h1>Our Partners</h1> 
+      <h3>Our Partners</h3> 
       
         <div class="our_partners">
           <div class="partners p_holder1">
+          <img src="images/home/simply_web.png" class="web">
+            <img src="images/home/simply.png">
+            
           </div>
           <div class="partners p_holder1">
+          <img src="images/home/allrecipes_web.png" class="web">
+            <img src="images/home/allrecipes.png" alt="">
+            
           </div>
           <div class="partners p_holder1">
+          <img src="images/home/toh_web.png" class="web">
+            <img src="images/home/toh.png" alt="">
+            
           </div>
         </div>
-      <img src="images/home/chef.png" alt="">
+      <img src="images/home/chef.png" alt="" id="chef1">
     </div>
   </div>
 
@@ -158,7 +167,7 @@
                         <i class="fa-solid fa-star" id="item1_star4"></i>
                         <i class="fa-solid fa-star" id="item1_star5"></i>
                         <div class="reactions">
-                            <button><i class="fa-solid fa-circle-plus"></i></button>
+                            <a href="recipe.php"><i class="fa-solid fa-circle-plus"></i></a>
                             <div class="item_description">Savor our irresistible bacon hamburger with crispy bacon and juicy beef patty.</div>
                         </div>
                     </div>
@@ -174,7 +183,7 @@
                         <i class="fa-solid fa-star" id="item2_star4"></i>
                         <i class="fa-solid fa-star" id="item2_star5"></i>  
                         <div class="reactions">
-                            <button><i class="fa-solid fa-circle-plus"></i></button>
+                          <a href="recipe.php"><i class="fa-solid fa-circle-plus"></i></a>
                             <div class="item_description">A sundae bursting with flavor from a variety of ice cream flavors, syrups, and toppings.</div>
                         </div>
                     </div>
@@ -190,7 +199,7 @@
                         <i class="fa-solid fa-star" id="item3_star4"></i>
                         <i class="fa-solid fa-star" id="item3_star5"></i> 
                         <div class="reactions">
-                            <button><i class="fa-solid fa-circle-plus"></i></button>
+                          <a href="recipe.php"><i class="fa-solid fa-circle-plus"></i></a>
                             <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
                         </div>
                         
@@ -199,7 +208,7 @@
             </div>
   </div>
 <?php
-    include 'Footer.php';
+    include 'footer.php';
 ?>
   <script src="js/script.js"></script>
 

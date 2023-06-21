@@ -28,7 +28,7 @@
 <body>
 
   <?php
-        include 'Header.php';
+        include 'header.php';
   ?>
 
   <div id="display1">
@@ -69,7 +69,7 @@
     </div>
   </div>
   <?php
-        include 'Footer.php';
+        include 'footer.php';
   ?>
 
 <script src="js/script.js"></script>

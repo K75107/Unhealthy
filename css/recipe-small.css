@@ -5,7 +5,7 @@
 
     position: relative;
     top: 52px;
- 
+        overflow-x: hidden;
 }
 #display1{
     height: calc(100vw * 350/720);

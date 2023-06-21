@@ -209,10 +209,11 @@ search button{
   top: calc(100vw * 50/720);
   left: calc(100vw * 25/720);
 }
-.f2 h2{
+.f2 a{
   position: relative;
   top: calc(100vw*50/720);
   left: calc(100vw * 25/720);
+  text-decoration: none;
 }
 .f3{
   position: relative;

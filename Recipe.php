@@ -28,7 +28,7 @@
 <body>
 
   <?php
-      include 'Header.php';
+      include 'header.php';
   ?>
     <div class="display" id="display1">
         <img src="images/recipe/bg.png" alt="" id="bg">
@@ -53,7 +53,7 @@
                                     <i class="fa-solid fa-star" id="item1_star5"></i>
                                     <div class="reactions">
                                         <button onclick="show1()"><i class="fa-solid fa-circle-plus"></i></button>
-                                        <div class="item_description">A trendy whipped coffee <br> treat from South Korea. Equal parts instant coffee, sugar, and hot water whipped to a creamy froth. Spoon over milk for a visually striking and deliciously sweet caffeine fix. Perfect for coffee lovers and social media enthusiasts alike.</div>
+                                        <div class="item_description">A trendy whipped<br>coffee treat from South Korea. Equal parts instant coffee, sugar, and hot water whipped to a creamy froth. Spoon over milk for a visually striking and deliciously sweet caffeine fix. Perfect for coffee lovers and social media enthusiasts alike.</div>
                                     </div>
                                     
                             </div>
@@ -587,7 +587,7 @@
        </div>
     </div>
 <?php
-    include 'Footer.php';
+    include 'footer.php';
 ?>
   <script src="js/script.js"></script>
 

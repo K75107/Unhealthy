@@ -28,7 +28,7 @@
 <body>
 
   <?php
-        include 'Header.php';
+        include 'header.php';
   ?>
 
   <div class="display">
