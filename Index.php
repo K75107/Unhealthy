@@ -132,22 +132,22 @@
       
         <div class="our_partners">
           <div class="partners p_holder1">
-          <img src="images/home/simply_web.png" class="web">
+            <img src="images/home/simply_web.png" class="web">
             <img src="images/home/simply.png">
             
           </div>
           <div class="partners p_holder1">
-          <img src="images/home/allrecipes_web.png" class="web">
+            <img src="images/home/allrecipes_web.png" class="web">
             <img src="images/home/allrecipes.png" alt="">
             
           </div>
           <div class="partners p_holder1">
-          <img src="images/home/toh_web.png" class="web">
+            <img src="images/home/toh_web.png" class="web">
             <img src="images/home/toh.png" alt="">
             
           </div>
         </div>
-      <img src="images/home/chef.png" alt="" id="chef1">
+      <img src="images/home/chef.png" id="chef1">
     </div>
   </div>
 
