@@ -1,4 +1,6 @@
 /*Global-Start*/
+
+/*RECIPE-START*/
 function exit1() {
   var element = document.getElementsByClassName("recipe1")[0];
   element.style.display = "none";
@@ -55,9 +57,16 @@ function show6(){
   element.style.display = "flex";
 }
 
+/*RECIPE-END*/
 
+function show_sent() {
+  var element = document.getElementsByClassName("message_sent")[0];
+  element.style.display = "flex";
 
-
+  setTimeout(function() {
+    element.style.display = "none";
+  }, 2000); 
+}
 
 
 

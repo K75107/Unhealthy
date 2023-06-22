@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Contact Us</title>
+
+  <!--Icon-->
+  <link rel="icon" type="image/png" href="images/logo_smallpng.png">
 
   <!-- CSS -->
     <link rel="stylesheet" href="css/global.css">
@@ -45,7 +48,7 @@
                 <div class="slide second">
                     <img src="images/contact/location.png" alt="">
                     <p>Sto. Niño Street, Cagayan de Oro, Misamis Oriental, Region X, Philippines</p>
-                    <h1>View Location</h1>
+                    <a href="https://www.google.com/maps/place/Lapasan,+Cagayan+de+Oro,+Misamis+Oriental/@8.4857797,124.6572338,17z/data=!3m1!4b1!4m6!3m5!1s0x32fff2c1b919825b:0x6781ab99eba376b6!8m2!3d8.4857744!4d124.6598087!16s%2Fg%2F11g5_vqf51?entry=ttu" target="_blank"><h1>View Location</h1></a>
                 </div>
                 <div class="slide third">
                 <img src="images/contact/chef1.png" alt="">
@@ -66,13 +69,23 @@
             <input type="email" id="email" name="email" placeholder="Email">
             <textarea id="message" name="message" rows="5" cols="40" placeholder="Message"></textarea>    
           </form>
-          <button id="send">Send Message</button>
+          <button onclick="show_sent()" id="send">Send Message</button>
           <h3>By clicking send, you agree to our <button id="policy">privacy policy.</button></h3>
 
         
         </div>
   
     </div>
+    <div class="message_sent">
+      <div class="sent_holder">
+        <div id="green_top"></div>
+        <i class="fa-regular fa-circle-check"></i>
+        <h1>THANK YOU!</h1>
+        <p>Message succesfully delivered.</p>
+      </div>
+
+    </div>
+
     <?php
         include 'footer.php';
   ?>

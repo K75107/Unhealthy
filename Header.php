@@ -8,7 +8,7 @@
     <div class="sidebar">
       <ul>	
         <li><a href="index.php" target="_self" id="home_active"><i class="fa-solid fa-house"></i>Home</span></a></li>
-        <li id="recipes-button" ><a id="recipe_active">
+        <li id="recipes-button" ><a id="recipe_active" href="recipe.php">
           <label for="toggle-submenu"><i class="fa-solid fa-book"></i>Recipes</span></a></label>
           <div class="submenu">
             

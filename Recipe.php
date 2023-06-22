@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Recipe</title>
+
+  <!--Icon-->
+  <link rel="icon" type="image/png" href="images/logo_smallpng.png">
 
   <!-- CSS -->
     <link rel="stylesheet" href="css/global.css">
@@ -94,7 +97,7 @@
                             </div>
                             <div class="item_holder"  id="item4">
                                 <div class="items"> 
-                                    <img src="images/recipe/trend/carbonara.png" class="photo">  
+                                    <img src="images/recipe/popular/carbonara.png" class="photo">  
                                     <div class="names_item">Carbonara</div>
                                     <i class="fa-solid fa-star" id="item4_star1"></i>
                                     <i class="fa-solid fa-star" id="item4_star2"></i>
@@ -110,7 +113,7 @@
                             </div>
                             <div class="item_holder"  id="item5">
                                 <div class="items"> 
-                                    <img src="images/recipe/trend/corndog.png" class="photo">  
+                                    <img src="images/recipe/popular/corndog.png" class="photo">  
                                     <div class="names_item">Corndog</div>
                                     <i class="fa-solid fa-star" id="item5_star1"></i>
                                     <i class="fa-solid fa-star" id="item5_star2"></i>
@@ -125,7 +128,7 @@
                             </div>
                             <div class="item_holder"  id="item6">
                                 <div class="items"> 
-                                    <img src="images/recipe/trend/churros.png" class="photo">  
+                                    <img src="images/recipe/popular/churros.png" class="photo">  
                                     <div class="names_item">Churros</div>
                                     <i class="fa-solid fa-star" id="item6_star1"></i>
                                     <i class="fa-solid fa-star" id="item6_star2"></i>
@@ -157,7 +160,7 @@
                                     <i class="fa-solid fa-star" id="item1_star5"></i>
                                     <div class="reactions">
                                         <button><i class="fa-solid fa-circle-plus"></i></button>
-                                        <div class="item_description">Savor our irresistible bacon hamburger with crispy bacon and juicy beef patty.</div>
+                                        <div class="item_description">A delicious burger<br> that combines crispy bacon and flavorful ham for a smoky and savory taste experience.</div>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +176,7 @@
                                     <i class="fa-solid fa-star" id="item2_star5"></i>  
                                     <div class="reactions">
                                         <button><i class="fa-solid fa-circle-plus"></i></button>
-                                        <div class="item_description">A sundae bursting with flavor from a variety of ice cream flavors, syrups, and toppings.</div>
+                                        <div class="item_description">A delightful dessert<br> with a variety of ice cream flavors layered or swirled together, topped with an array of delicious toppings.</div>
                                     </div>
                                 </div>
                             </div>
@@ -189,25 +192,55 @@
                                     <i class="fa-solid fa-star" id="item3_star5"></i> 
                                     <div class="reactions">
                                         <button><i class="fa-solid fa-circle-plus"></i></button>
-                                        <div class="item_description">A timeless snack, the hotdog in a bun features a sausage with condiments in a sliced bun.</div>
+                                        <div class="item_description">A delicious handheld<br> meal featuring a sausage nestled inside a soft bun, topped with flavorful condiments.</div>
                                     </div>
                                     
                                 </div>
                             </div>
                             <div class="item_holder"  id="item4">
-                                <div class="items"> 
-                                    
+                            <div class="items"> 
+                                    <img src="images/recipe/new/Kori_kohi.png" class="photo">  
+                                    <div class="names_item">Kori Kohi</div>
+                                    <i class="fa-solid fa-star" id="item4_star1"></i>
+                                    <i class="fa-solid fa-star" id="item4_star2"></i>
+                                    <i class="fa-solid fa-star" id="item4_star3"></i>
+                                    <i class="fa-solid fa-star" id="item4_star4"></i>
+                                    <i class="fa-solid fa-star" id="item4_star5"></i> 
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A refreshing Japanese<br>iced coffee with coffee cubes served over milk or coffee-milk blend for a unique and chilled coffee experience. </div>
+                                    </div>
                                     
                                 </div>
                             </div>
                             <div class="item_holder"  id="item5">
-                                <div class="items"> 
-                                    
+                            <div class="items"> 
+                                    <img src="images/recipe/new/mango_graham.png" class="photo">  
+                                    <div class="names_item">Mango-Graham</div>
+                                    <i class="fa-solid fa-star" id="item5_star1"></i>
+                                    <i class="fa-solid fa-star" id="item5_star2"></i>
+                                    <i class="fa-solid fa-star" id="item5_star3"></i>
+                                    <i class="fa-solid fa-star" id="item5_star4"></i>
+                                    <i class="fa-solid fa-star" id="item5_star5"></i> 
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A luscious Filipino<br> dessert with layers of graham crackers, sweet cream, and ripe mango slices, creating a delightful and refreshing no-bake treat.</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="item_holder"  id="item6">
-                                <div class="items"> 
-                                    
+                            <div class="items"> 
+                                    <img src="images/recipe/new/doughnut.png" class="photo">  
+                                    <div class="names_item">Doughnut</div>
+                                    <i class="fa-solid fa-star" id="item6_star1"></i>
+                                    <i class="fa-solid fa-star" id="item6_star2"></i>
+                                    <i class="fa-solid fa-star" id="item6_star3"></i>
+                                    <i class="fa-solid fa-star" id="item6_star4"></i>
+                                    <i class="fa-solid fa-star" id="item6_star5"></i> 
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A sweet, fried<br> or baked pastry that is typically ring-shaped and enjoyed as a delicious treat.</div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -215,37 +248,100 @@
                     </div>
                     <div id="trending">
                     
-                            <div class="item_holder"  id="item1">
+                    <div class="item_holder"  id="item1">
                                 
                                 <div class="items" >
                                     
+                                    <img src="images/recipe/trend/cookies.png" class="photo">
+                                    <div class="names_item">Cookies</div>
+                                    <i class="fa-solid fa-star" id="item1_star1"></i>
+                                    <i class="fa-solid fa-star" id="item1_star2"></i>
+                                    <i class="fa-solid fa-star" id="item1_star3"></i>
+                                    <i class="fa-solid fa-star" id="item1_star4"></i>
+                                    <i class="fa-solid fa-star" id="item1_star5"></i>
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">Baked treats made<br>from flour, sugar, butter, and flavorings like chocolate chips or nuts. Enjoy in moderation due to their high sugar and calorie content.</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="item_holder" id="item2">
                                 <div class="items" >
                                     
+                                    <img src="images/recipe/trend/lumpia.png" class="photo"> 
+                                    <div class="names_item">Pork Lumpia</div>
+                                    <i class="fa-solid fa-star" id="item2_star1"></i>
+                                    <i class="fa-solid fa-star" id="item2_star2"></i>
+                                    <i class="fa-solid fa-star" id="item2_star3"></i>
+                                    <i class="fa-solid fa-star" id="item2_star4"></i>
+                                    <i class="fa-solid fa-star" id="item2_star5"></i>  
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A crispy Filipino<br> appetizer made with ground pork, vegetables, and seasonings, commonly served with a dipping sauce.</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="item_holder"  id="item3">
                                 <div class="items"> 
                                     
+                                    <img src="images/recipe/trend/milkshake.png" class="photo">  
+                                    <div class="names_item">Milkshakes</div>
+                                    <i class="fa-solid fa-star" id="item3_star1"></i>
+                                    <i class="fa-solid fa-star" id="item3_star2"></i>
+                                    <i class="fa-solid fa-star" id="item3_star3"></i>
+                                    <i class="fa-solid fa-star" id="item3_star4"></i>
+                                    <i class="fa-solid fa-star" id="item3_star5"></i> 
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A creamy beverage<br> made by blending milk, ice cream, and flavorings for a sweet and refreshing treat.</div>
+                                    </div>
                                     
                                 </div>
                             </div>
                             <div class="item_holder"  id="item4">
-                                <div class="items"> 
-                                    
+                            <div class="items"> 
+                                    <img src="images/recipe/trend/nachos.png" class="photo">  
+                                    <div class="names_item">Nachos</div>
+                                    <i class="fa-solid fa-star" id="item4_star1"></i>
+                                    <i class="fa-solid fa-star" id="item4_star2"></i>
+                                    <i class="fa-solid fa-star" id="item4_star3"></i>
+                                    <i class="fa-solid fa-star" id="item4_star4"></i>
+                                    <i class="fa-solid fa-star" id="item4_star5"></i> 
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">Crispy tortilla<br> chips topped with melted cheese and savory ingredients like salsa, guacamole, and sour cream, creating a delicious snack or appetizer.</div>
+                                    </div>
                                     
                                 </div>
                             </div>
                             <div class="item_holder"  id="item5">
-                                <div class="items"> 
-                                    
+                            <div class="items"> 
+                                    <img src="images/recipe/trend/pizza.png" class="photo">  
+                                    <div class="names_item">Pizza</div>
+                                    <i class="fa-solid fa-star" id="item5_star1"></i>
+                                    <i class="fa-solid fa-star" id="item5_star2"></i>
+                                    <i class="fa-solid fa-star" id="item5_star3"></i>
+                                    <i class="fa-solid fa-star" id="item5_star4"></i>
+                                    <i class="fa-solid fa-star" id="item5_star5"></i> 
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">A round flatbread<br>topped with tomato sauce, cheese, and various toppings, baked to perfection for a delicious and customizable meal.</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="item_holder"  id="item6">
-                                <div class="items"> 
-                                    
+                            <div class="items"> 
+                                    <img src="images/recipe/trend/onion_rings.png" class="photo">  
+                                    <div class="names_item">Onion Rings</div>
+                                    <i class="fa-solid fa-star" id="item6_star1"></i>
+                                    <i class="fa-solid fa-star" id="item6_star2"></i>
+                                    <i class="fa-solid fa-star" id="item6_star3"></i>
+                                    <i class="fa-solid fa-star" id="item6_star4"></i>
+                                    <i class="fa-solid fa-star" id="item6_star5"></i> 
+                                    <div class="reactions">
+                                        <button><i class="fa-solid fa-circle-plus"></i></button>
+                                        <div class="item_description">Crispy deep-fried<br> snacks made from sliced onions, enjoyed for their crunchy texture and savory flavor.</div>
+                                    </div>
                                 </div>
                             </div>
 

@@ -10,6 +10,8 @@
 #display1{
     height: calc(100vw * 350/720);
     width: calc(100vw * 720/720);
+    overflow-x: hidden;
+    
 
 }
 #bg{

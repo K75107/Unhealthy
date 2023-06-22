@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
+  <!--Icon-->
+  <link rel="icon" type="image/png" href="images/logo_smallpng.png">
+
   <!-- CSS -->
     <link rel="stylesheet" href="css/global.css">
 
-    <link rel="stylesheet" media="(max-width: 720px)" href="css/index-small.css">
+    <link rel="stylesheet" media="(max-width: 720px)" href="css/index-small1.css">
     <link rel="stylesheet" media="(max-width: 720px)" href="css/global-small.css">
 
-    <link rel="stylesheet" media="(min-width: 721px)" href="css/index-wide.css">
+    <link rel="stylesheet" media="(min-width: 721px)" href="css/index-wide1.css">
     <link rel="stylesheet" media="(min-width: 721px)" href="css/global-wide.css">
 
 
@@ -54,7 +57,7 @@
                 <h1>Your Way to</h1>
                 <h2>Unhealthy Lifestyle</h2>
                 <p>"Welcome to Unhealthy: Indulge in Deliciously<br>Decadent Recipes!"</p>
-                <button>Show Recipes</button>
+                <a href="recipe.php">Show Recipes</a>
               </div>
             </div>
             <div class="slide" id="second">
@@ -63,7 +66,7 @@
                   <h1>Dive into</h1>
                   <h2>Culinary Sin</h2>
                   <p>"Unhealthy - Where Excess is<br>Celebrated and Flavor<br>Reigns Supreme!"</p>
-                  <button>Show Recipes</button>
+                  <a href="recipe.php">Show Recipes</a>
                 </div>
             </div>
             <div class="slide third">
@@ -72,7 +75,7 @@
                   <h1>Unleash Your</h1>
                   <h2>Culinary Desires</h2>
                   <p>"Immerse Yourself in Flavorsome Pleasures! <br>Discover a World of IrresistibleRecipes<br>Awaiting Your Indulgence."</p>
-                  <button>Show Recipes</button>
+                  <a href="recipe.php">Show Recipes</a>
                 </div>
             </div>
             <div class="slide fourth">
@@ -81,7 +84,7 @@
                   <h1>Embark on a</h1>
                   <h2>Decadent Journey</h2>
                   <p>"Explore the Art of Indulgence! Delight in<br>Exquisite Creations that Transcend<br>the Ordinary."</p>
-                  <button>Show Recipes</button>
+                  <a href="recipe.php">Show Recipes</a>
                 </div>
             </div>
             <div class="slide fifth">
@@ -90,7 +93,7 @@
                 <h1>Your Way to</h1>
                 <h2>Unhealthy Lifestyle</h2>
                 <p>"Welcome to Unhealthy: Indulge in Deliciously<br>Decadent Recipes!"</p>
-                <button>Show Recipes</button>
+                <a href="recipe.php">Show Recipes</a>
               </div>
             </div>
           <!--Slides-End-->
@@ -131,21 +134,25 @@
       <h3>Our Partners</h3> 
       
         <div class="our_partners">
-          <div class="partners p_holder1">
+
+          <a href="https://www.simplyrecipes.com/" target="_blank">
+          <div class="partners">
             <img src="images/home/simply_web.png" class="web">
             <img src="images/home/simply.png">
-            
-          </div>
-          <div class="partners p_holder1">
+          </div> </a>
+
+          <a href="https://www.allrecipes.com/"  target="_blank">
+          <div class="partners">
             <img src="images/home/allrecipes_web.png" class="web">
-            <img src="images/home/allrecipes.png" alt="">
-            
-          </div>
-          <div class="partners p_holder1">
+            <img src="images/home/allrecipes.png" alt=""> 
+          </div> </a>
+          
+          <a href="https://www.tasteofhome.com/" target="_blank">
+          <div class="partners">
             <img src="images/home/toh_web.png" class="web">
             <img src="images/home/toh.png" alt="">
-            
-          </div>
+          </div></a>
+
         </div>
       <img src="images/home/chef.png" id="chef1">
     </div>

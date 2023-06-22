@@ -208,7 +208,7 @@ body{
         top: 0px;
     width: inherit;
 }
-.footer_holder h1, .footer_holder h2{
+.footer_holder h1, .footer_holder h2,.footer_holder h3{
     font-family: var(--poppins);
     font-weight: normal;
     color: rgb(227, 227, 227);
@@ -224,7 +224,7 @@ body{
         width: calc(100vw * 160/1920);
 
 }
-.f1 a{
+.f1 h1{
     position: relative;
     font-size: calc(100vw * 15/1920);
     left: calc(100vw * 35/1920);
@@ -240,7 +240,11 @@ body{
     top: calc(100vw*50/1920);
     text-decoration: none;
 }
-
+h3{
+    position: relative;
+    top: calc(100vw * 10/1920);
+    left: calc(100vw * 30/1920);
+}
 /*hover*/
 .footer_holder h2:hover{
     color:white;

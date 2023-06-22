@@ -175,20 +175,14 @@ search button{
       top: calc(100vw * 20/720);
   width: inherit;
 }
-.footer_holder h1, .footer_holder h2{
+.footer_holder h1, .footer_holder h2,.footer_holder h3{
   font-family: var(--poppins);
   font-weight: normal;
-  color: white;
+  color: rgb(227, 227, 227);
   font-size: calc(100vw * 15/720);
   position: relative;
-      top: calc(100vw * 20/720);  
       
 }
-#h2{
-  position: relative;
-  top: calc(100vw * 30/720); 
-}
-
 
 .f1 h1{
   position: relative;
@@ -199,7 +193,7 @@ search button{
 
 
 }
-.f1 h2{
+.f1 h1{
   position: relative;
   font-size: calc(100vw * 15/720);
   left: calc(100vw * 25/720);
@@ -224,4 +218,14 @@ search button{
 .f3{
   position: relative;
   top: calc(100vw*-50/720);
+}
+h3{
+  position: relative;
+  margin-top: calc(100vw * 15/720);
+  left: calc(100vw * 25/720);
+}
+
+/*hover*/
+.footer_holder h2:hover{
+  color:white;
 }

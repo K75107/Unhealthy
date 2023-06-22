@@ -3,7 +3,7 @@
     <div class="footer_holder f1">
       <img src="images/logo white.png" alt="">
       <h1>002A-32FA-11B0</h1>
-      <h2 id="h2">©2023 Unhealthy, Inc.</h2>
+      <h3 >©2023 Unhealthy, Inc.</h3>
     </div>
     <div class="footer_holder f2">
       <h1>NAVIGATION</h1>

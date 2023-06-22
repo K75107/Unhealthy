@@ -100,7 +100,8 @@
     font-size: calc(100vw * 22/1920);
 }
 
-.saying_holder button{
+.saying_holder a{
+    text-decoration: none;
     font-family: var(--poppins);
     color: white;
     font-size: calc(100vw *18/1920);
@@ -260,7 +261,7 @@
     height: calc(100vw * 655/1920);
     background-color: var(--yellow);
 }
-#chef1{
+#display2 #chef1{
     position: absolute;
         bottom: 0px;
         right: 0px;
@@ -269,16 +270,17 @@
 
 .our_partners{
     position: absolute;
-        top: calc(100vw * 80/1920);
-        left: calc(100vw * 70/1920);
+        top: calc(100vw * 180/1920);
+        left: calc(100vw * 50/1920);
     width: calc(100vw * 1000/1920);
-    height:calc(100vw * 500/1920) ;
+    height:calc(100vw * 350/1920) ;
     display: flex;
+        justify-content: center;
+
 }
 
 .partners{
     position: relative;
-        top: calc(100vw * 100/1920);
         width: calc(100vw * 300/1920);
         height: calc(100vw * 300/1920);
         border-radius: calc(100vw * 25/1920);
@@ -288,17 +290,22 @@
     
 }
 
-.p_holder1 img{
+.our_partners .partners:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+
+#display2 #orange_holder2 .our_partners img{
     position: absolute;
         bottom: calc(100vw * 45/1920);
         left: calc(100vw * 50/1920);
     width: calc(100vw * 200/1920);
 }
 .web{
-    width: calc(100vw * 250/1920) !important;
+    width: calc(100vw * 250/1920) ;
     position: relative;
         top: calc(100vw *30/1920);
-        left: calc(100vw * 20/1920) !important;
+        left: calc(100vw * 20/1920) ;
 }
 
 
