@@ -59,6 +59,7 @@ function show6(){
 
 /*RECIPE-END*/
 
+
 function show_sent() {
   var element = document.getElementsByClassName("message_sent")[0];
   element.style.display = "flex";
@@ -68,8 +69,14 @@ function show_sent() {
   }, 2000); 
 }
 
-
-
+function show_policy() {
+  var element = document.getElementsByClassName("privacy_policy")[0];
+  element.style.display = "flex";
+}
+function exit_policy() {
+  var element = document.getElementsByClassName("privacy_policy")[0];
+  element.style.display = "none";
+}
 
 
   /*Slideshow - Start*/

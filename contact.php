@@ -70,7 +70,7 @@
             <textarea id="message" name="message" rows="5" cols="40" placeholder="Message"></textarea>    
           </form>
           <button onclick="show_sent()" id="send">Send Message</button>
-          <h3>By clicking send, you agree to our <button id="policy">privacy policy.</button></h3>
+          <h3>By clicking send, you agree to our <button id="policy" onclick="show_policy()">privacy policy.</button></h3>
 
         
         </div>
@@ -83,9 +83,33 @@
         <h1>THANK YOU!</h1>
         <p>Message succesfully delivered.</p>
       </div>
-
     </div>
 
+    <div class="privacy_policy">
+      <button id="exit_privacy" onclick="exit_policy()">X</button>
+      <div class="privacy_holder">
+        <h1>Privacy Policy</h1>
+        <p>This Privacy Policy describes how we collect, use, and disclose your personal information when you send a message to the owner of our website.</p>
+        <p>
+          <ul>
+            <li>Information Collection <br>
+                When you send a message to the owner of our website, we may collect certain personal information from you, such as: your name ,your email address ,any additional information you provide in the message
+            <li>Use of Information <br>
+                We may use the personal information collected from you to respond to your message and provide the requested assistance, communicate with you regarding your inquiry or any follow-up questions, improve our website and services based on your feedback, send you important updates or notifications related to your message.
+            </li>
+            <li>We treat your personal information with strict confidentiality and do not sell, trade, or transfer it to third parties without your consent, except in specific circumstances. We may engage trusted third-party service providers to assist us in operating our website or providing services to you, and they are obligated to keep your personal information confidential. Additionally, we may disclose your personal information if required by law or to protect our rights, enforce our website policies, or investigate potential violations.</li>
+            <li>We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, please be aware that no method of transmission over the internet or electronic storage is completely secure.</li>
+            <li>You have the right to access, update, or correct your personal information by contacting us directly. You may also object to the processing of your personal information for certain purposes or request the deletion of your personal information, subject to applicable legal requirements.</li>
+            <li>Our website is not intended for individuals under the age of 18, and we do not knowingly collect personal information from children. If you believe that your child has provided us with personal information, please contact us, and we will take appropriate steps to remove such information from our records.</li>
+            <li>We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. We encourage you to review this policy for any updates.</li>
+            <li>If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal information, please contact us using the information provided below.
+
+</li>
+          </ul>   
+        </p>
+      </div>
+
+    </div>
     <?php
         include 'footer.php';
   ?>
