@@ -39,17 +39,17 @@
     <h1>Welcome to our</h1>
     <h2>About Page</h2>
   </div>
-  <div id="display2">
+  <div id="display2" class="slidein-effect">
         <div id="saying_holder">
             <h1 id="qoute1">"</h1>
             <h1 id="qoute2">"</h1>
             <p>As food enthusiasts, we believe that cooking is not just a necessity but an art form that brings people together. Our goal is to provide a platform where individuals can explore a wide range of delicious recipes, from traditional favorites to innovative culinary creations.</p>
         </div>
-        <img src="images/about/girl.png" alt="" id="girl">
+        <img src="images/about/girl.png" alt="" id="girl" >
         <div id="orange_bot">
         </div>
   </div>
-  <div id="display3">
+  <div id="display3" class="scroll-effect">
     <h1>Meet Our Team </h1>
     <div id="authors">
         <div class="info_holder">

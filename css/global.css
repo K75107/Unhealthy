@@ -2,6 +2,29 @@
     margin: 0px;
     }
 
+.scroll-effect {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, transform 1s;
+}
+
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.slidein-effect {
+    animation: slideIn 1s ease-in-out forwards;
+  }
+  
+
+
 :root {
     --green:#03C03C;
     --dark-green:#00a030;

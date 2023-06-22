@@ -152,3 +152,22 @@ if (window.matchMedia("(max-width: 720px)").matches) {
   /*Login-End*/
 
 }
+
+
+
+
+/*On Scroll*/
+window.addEventListener('scroll', function() {
+  var elements = document.querySelectorAll('.scroll-effect');
+
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var elementPosition = element.getBoundingClientRect().top;
+    var windowHeight = window.innerHeight;
+
+    if (elementPosition < windowHeight * 0.8) {
+      element.style.opacity = '1';
+      element.style.transform = 'translateY(0)';
+    }
+  }
+});

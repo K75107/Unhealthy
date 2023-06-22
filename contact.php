@@ -34,7 +34,7 @@
         include 'header.php';
   ?>
 
-    <div class="display">
+    <div class="display slidein-effect">
         <div class="slide_frame">
             <div class="slideshow">
                 <div class="slide first">

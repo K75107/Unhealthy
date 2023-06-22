@@ -34,7 +34,7 @@
       include 'header.php';
   ?>
 
-  <div id="display1"> 
+  <div id="display1" class="slidein-effect"> 
     
     <div id="background1">
       <div id="table_holder">
@@ -126,7 +126,7 @@
     </div>
   </div>
 
-  <div id="display2">
+  <div id="display2" class="scroll-effect">
     <div id="whitebox_holder">
       <p>“At Unhealthy, we embrace the sheer joy of indulgence and celebrate the irresistible allure of sinful treats. Here, we invite you to dive into a world of mouth-watering recipes that will satisfy your cravings and awaken your taste buds.”</p>
     </div>
@@ -158,7 +158,7 @@
     </div>
   </div>
 
-  <div id="display3">
+  <div id="display3" class="scroll-effect">
     <p class="scroll-effect">What's New?</p>
                 <p class="scroll-effect">COMPLEMENT YOUR PALATE</p>
             <div class="container-items scroll-effect">

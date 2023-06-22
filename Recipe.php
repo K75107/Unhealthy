@@ -41,8 +41,7 @@
 
     </div>
     <div class="display">
-                    <div id="recipe_list">
-    
+                    <div id="recipe_list" class="slidein-effect">
                         <div class="item_holder"  id="item1">
                                 
                             <div class="items" >
@@ -60,10 +59,8 @@
                                     </div>
                                     
                             </div>
-                            </div>
-
-
-                            <div class="item_holder" id="item2">
+                        </div>
+                        <div class="item_holder" id="item2">
                                 <div class="items" >
                                     
                                     <img src="images/recipe/popular/fries.png" class="photo"> 
@@ -78,8 +75,8 @@
                                         <div class="item_description">French fries are crispy<br>potato strips enjoyed as a popular snack worldwide. They're deep-fried, seasoned with salt, and often served with dipping sauces.</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item3">
+                        </div>
+                        <div class="item_holder"  id="item3">
                                 <div class="items">
                                     <img src="images/recipe/popular/fried_chicken.png" class="photo">  
                                     <div class="names_item">Fried Chicken</div>
@@ -94,8 +91,8 @@
                                     </div>
                                     
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item4">
+                        </div>
+                        <div class="item_holder"  id="item4">
                                 <div class="items"> 
                                     <img src="images/recipe/popular/carbonara.png" class="photo">  
                                     <div class="names_item">Carbonara</div>
@@ -110,8 +107,8 @@
                                     </div>
                                     
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item5">
+                        </div>
+                        <div class="item_holder"  id="item5">
                                 <div class="items"> 
                                     <img src="images/recipe/popular/corndog.png" class="photo">  
                                     <div class="names_item">Corndog</div>
@@ -125,8 +122,8 @@
                                         <div class="item_description">A delicious snack<br>made of a hot dog coated in sweet cornbread batter, fried until crispy. It's a popular treat often enjoyed at fairs and outdoor events.</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item6">
+                        </div>
+                        <div class="item_holder"  id="item6">
                                 <div class="items"> 
                                     <img src="images/recipe/popular/churros.png" class="photo">  
                                     <div class="names_item">Churros</div>
@@ -140,15 +137,11 @@
                                         <div class="item_description">Coated in cinnamon<br>and sugar, they are a sweet and delightful treat often enjoyed with chocolate sauce.</div>
                                     </div>
                                 </div>
-                            </div>
-
-
+                        </div>
                     </div>
                     
-                    <div id="popular">
-                    
-                            <div class="item_holder"  id="item1">
-                                
+                    <div id="popular" class="scroll-effect">
+                        <div class="item_holder"  id="item1">
                                 <div class="items" >
                                     
                                     <img src="images/recipe/new/bacon_ham .png" class="photo">
@@ -161,10 +154,11 @@
                                     <div class="reactions">
                                         <button><i class="fa-solid fa-circle-plus"></i></button>
                                         <div class="item_description">A delicious burger<br> that combines crispy bacon and flavorful ham for a smoky and savory taste experience.</div>
-                                    </div>
+                                
+                                     </div>
                                 </div>
-                            </div>
-                            <div class="item_holder" id="item2">
+                        </div>
+                        <div class="item_holder" id="item2">
                                 <div class="items" >
                                     
                                     <img src="images/recipe/new/sundae.png" class="photo"> 
@@ -179,8 +173,8 @@
                                         <div class="item_description">A delightful dessert<br> with a variety of ice cream flavors layered or swirled together, topped with an array of delicious toppings.</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item3">
+                        </div>
+                        <div class="item_holder"  id="item3">
                                 <div class="items"> 
                                     
                                     <img src="images/recipe/new/hotdog.png" class="photo">  
@@ -196,8 +190,8 @@
                                     </div>
                                     
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item4">
+                        </div>
+                        <div class="item_holder"  id="item4">
                             <div class="items"> 
                                     <img src="images/recipe/new/Kori_kohi.png" class="photo">  
                                     <div class="names_item">Kori Kohi</div>
@@ -227,8 +221,8 @@
                                         <div class="item_description">A luscious Filipino<br> dessert with layers of graham crackers, sweet cream, and ripe mango slices, creating a delightful and refreshing no-bake treat.</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item6">
+                        </div>
+                        <div class="item_holder"  id="item6">
                             <div class="items"> 
                                     <img src="images/recipe/new/doughnut.png" class="photo">  
                                     <div class="names_item">Doughnut</div>
@@ -242,13 +236,11 @@
                                         <div class="item_description">A sweet, fried<br> or baked pastry that is typically ring-shaped and enjoyed as a delicious treat.</div>
                                     </div>
                                 </div>
-                            </div>
-
-
+                        </div>
                     </div>
-                    <div id="trending">
                     
-                    <div class="item_holder"  id="item1">
+                    <div id="trending" class="scroll-effect">
+                        <div class="item_holder"  id="item1">
                                 
                                 <div class="items" >
                                     
@@ -264,8 +256,8 @@
                                         <div class="item_description">Baked treats made<br>from flour, sugar, butter, and flavorings like chocolate chips or nuts. Enjoy in moderation due to their high sugar and calorie content.</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item_holder" id="item2">
+                        </div>
+                        <div class="item_holder" id="item2">
                                 <div class="items" >
                                     
                                     <img src="images/recipe/trend/lumpia.png" class="photo"> 
@@ -280,8 +272,8 @@
                                         <div class="item_description">A crispy Filipino<br> appetizer made with ground pork, vegetables, and seasonings, commonly served with a dipping sauce.</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item3">
+                        </div>
+                        <div class="item_holder"  id="item3">
                                 <div class="items"> 
                                     
                                     <img src="images/recipe/trend/milkshake.png" class="photo">  
@@ -297,8 +289,8 @@
                                     </div>
                                     
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item4">
+                        </div>
+                        <div class="item_holder"  id="item4">
                             <div class="items"> 
                                     <img src="images/recipe/trend/nachos.png" class="photo">  
                                     <div class="names_item">Nachos</div>
@@ -313,8 +305,8 @@
                                     </div>
                                     
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item5">
+                        </div>
+                        <div class="item_holder"  id="item5">
                             <div class="items"> 
                                     <img src="images/recipe/trend/pizza.png" class="photo">  
                                     <div class="names_item">Pizza</div>
@@ -328,8 +320,8 @@
                                         <div class="item_description">A round flatbread<br>topped with tomato sauce, cheese, and various toppings, baked to perfection for a delicious and customizable meal.</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item_holder"  id="item6">
+                        </div>
+                        <div class="item_holder"  id="item6">
                             <div class="items"> 
                                     <img src="images/recipe/trend/onion_rings.png" class="photo">  
                                     <div class="names_item">Onion Rings</div>
@@ -343,9 +335,9 @@
                                         <div class="item_description">Crispy deep-fried<br> snacks made from sliced onions, enjoyed for their crunchy texture and savory flavor.</div>
                                     </div>
                                 </div>
-                            </div>
-
-                    </div>        
+                        </div>
+                    </div> 
+                         
     </div>
     <div class="items_holder recipe1">
         <button id="exit" onclick="exit1()">X</button>

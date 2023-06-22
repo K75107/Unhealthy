@@ -34,7 +34,7 @@
         include 'header.php';
   ?>
 
-  <div class="display">
+  <div class="display slidein-effect">
     <img src="images/login/footer.png" alt="" id="back_orange">
       <div id="holder1">
         <img src="images/logo white.png" id="logo">
