@@ -10,13 +10,13 @@
   <link rel="icon" type="image/png" href="images/logo_smallpng.png">
 
   <!-- CSS -->
-    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="CSS/global.css">
 
-    <link rel="stylesheet" media="(max-width: 720px)" href="css/login-small.css">
-    <link rel="stylesheet" media="(max-width: 720px)" href="css/global-small.css">
+    <link rel="stylesheet" media="(max-width: 720px)" href="CSS/login-small.css">
+    <link rel="stylesheet" media="(max-width: 720px)" href="CSS/global-small.css">
 
-    <link rel="stylesheet" media="(min-width: 721px)" href="css/login-wide.css">
-    <link rel="stylesheet" media="(min-width: 721px)" href="css/global-wide.css">
+    <link rel="stylesheet" media="(min-width: 721px)" href="CSS/login-wide.css">
+    <link rel="stylesheet" media="(min-width: 721px)" href="CSS/global-wide.css">
 
 
   <!-- FONTS -->
@@ -83,7 +83,7 @@
   
     </div>
   
-    <script src="js/script.js"></script>
+    <script src="JS/script1.js"></script>
 
 
 </body>

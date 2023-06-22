@@ -10,13 +10,13 @@
   <link rel="icon" type="image/png" href="images/logo_smallpng.png">
 
   <!-- CSS -->
-    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="CSS/global.css">
 
-    <link rel="stylesheet" media="(max-width: 720px)" href="css/index-small1.css">
-    <link rel="stylesheet" media="(max-width: 720px)" href="css/global-small.css">
+    <link rel="stylesheet" media="(max-width: 720px)" href="CSS/index-small.css">
+    <link rel="stylesheet" media="(max-width: 720px)" href="CSS/global-small.css">
 
-    <link rel="stylesheet" media="(min-width: 721px)" href="css/index-wide1.css">
-    <link rel="stylesheet" media="(min-width: 721px)" href="css/global-wide.css">
+    <link rel="stylesheet" media="(min-width: 721px)" href="CSS/index-wide.css">
+    <link rel="stylesheet" media="(min-width: 721px)" href="CSS/global-wide.css">
 
 
   <!-- FONTS -->
@@ -126,7 +126,7 @@
     </div>
   </div>
 
-  <div id="display2" class="scroll-effect">
+  <div id="display2" class="slidein-effect">
     <div id="whitebox_holder">
       <p>“At Unhealthy, we embrace the sheer joy of indulgence and celebrate the irresistible allure of sinful treats. Here, we invite you to dive into a world of mouth-watering recipes that will satisfy your cravings and awaken your taste buds.”</p>
     </div>
@@ -217,7 +217,7 @@
 <?php
     include 'footer.php';
 ?>
-  <script src="js/script.js"></script>
+  <script src="JS/script1.js"></script>
 
 </body>
 </html>

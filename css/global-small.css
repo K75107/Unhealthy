@@ -6,7 +6,7 @@ body{
   position: fixed;
   height: 51px;
   top: 5px;
-  left: 10px  ;
+  left: 0px  ;
   margin-right: auto;
 }
 .menu{
@@ -22,7 +22,7 @@ body{
   .check1{
       position: fixed;
         top: 10px;
-        right: 30px;
+        right: 5px;
       background-color: var(--light-gray);
       padding: 10px 13px;
 
@@ -54,7 +54,7 @@ hr{
 /*Start-Sidebar*/
  .sidebar{
       position: fixed;
-      right: -290px;
+      right: -350px;
       top: 55px;
       width: 300px;
       height: 100vh;

@@ -5,7 +5,7 @@
 .scroll-effect {
         opacity: 0;
         transform: translateY(50px);
-        transition: opacity 1s, transform 1s;
+        transition: opacity .5s, transform 1s;
 }
 
 @keyframes slideIn {
@@ -20,7 +20,7 @@
   }
   
 .slidein-effect {
-    animation: slideIn 1s ease-in-out forwards;
+    animation: slideIn .5s ease-in-out forwards;
   }
   
 
