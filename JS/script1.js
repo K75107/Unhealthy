@@ -57,6 +57,116 @@ function show6(){
   element.style.display = "flex";
 }
 
+/*Popular*/
+function P_exit1() {
+  var element = document.getElementsByClassName("P_recipe1")[0];
+  element.style.display = "none";
+}
+
+function P_show1(){
+  var element = document.getElementsByClassName("P_recipe1")[0];
+  element.style.display = "flex";
+}
+function P_exit2() {
+  var element = document.getElementsByClassName("P_recipe2")[0];
+  element.style.display = "none";
+}
+
+function P_show2(){
+  var element = document.getElementsByClassName("P_recipe2")[0];
+  element.style.display = "flex";
+}
+function P_exit3() {
+  var element = document.getElementsByClassName("P_recipe3")[0];
+  element.style.display = "none";
+}
+
+function P_show3(){
+  var element = document.getElementsByClassName("P_recipe3")[0];
+  element.style.display = "flex";
+}
+function P_exit4() {
+  var element = document.getElementsByClassName("P_recipe4")[0];
+  element.style.display = "none";
+}
+
+function P_show4(){
+  var element = document.getElementsByClassName("P_recipe4")[0];
+  element.style.display = "flex";
+}
+function P_exit5() {
+  var element = document.getElementsByClassName("P_recipe5")[0];
+  element.style.display = "none";
+}
+
+function P_show5(){
+  var element = document.getElementsByClassName("P_recipe5")[0];
+  element.style.display = "flex";
+}
+function P_exit6() {
+  var element = document.getElementsByClassName("P_recipe6")[0];
+  element.style.display = "none";
+}
+
+function P_show6(){
+  var element = document.getElementsByClassName("P_recipe6")[0];
+  element.style.display = "flex";
+}
+function T_exit1() {
+  var element = document.getElementsByClassName("T_recipe1")[0];
+  element.style.display = "none";
+}
+
+function T_show1(){
+  var element = document.getElementsByClassName("T_recipe1")[0];
+  element.style.display = "flex"; 
+}
+
+function T_exit2() {
+  var element = document.getElementsByClassName("T_recipe2")[0];
+  element.style.display = "none";
+}
+
+function T_show2(){
+  var element = document.getElementsByClassName("T_recipe2")[0];
+  element.style.display = "flex";
+}
+function T_exit3() {
+  var element = document.getElementsByClassName("T_recipe3")[0];
+  element.style.display = "none";
+}
+
+function T_show3(){
+  var element = document.getElementsByClassName("T_recipe3")[0];
+  element.style.display = "flex";
+}
+function T_exit4() {
+  var element = document.getElementsByClassName("T_recipe4")[0];
+  element.style.display = "none";
+}
+
+function T_show4(){
+  var element = document.getElementsByClassName("T_recipe4")[0];
+  element.style.display = "flex";
+}
+function T_exit5() {
+  var element = document.getElementsByClassName("T_recipe5")[0];
+  element.style.display = "none";
+}
+
+function T_show5(){
+  var element = document.getElementsByClassName("T_recipe5")[0];
+  element.style.display = "flex";
+}
+function T_exit6() {
+  var element = document.getElementsByClassName("T_recipe6")[0];
+  element.style.display = "none";
+}
+
+function T_show6(){
+  var element = document.getElementsByClassName("T_recipe6")[0];
+  element.style.display = "flex";
+}
 /*RECIPE-END*/
 
 

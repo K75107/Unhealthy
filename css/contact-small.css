@@ -309,6 +309,6 @@
 #back_orange{
     position: absolute;
     width: calc(100vw * 720/720);
-    bottom:  calc(100vw * 165/720)!important;
+    bottom:  calc(100vw * 370/720)!important;
     z-index: 0;
 }

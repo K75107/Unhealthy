@@ -266,7 +266,7 @@ body{
     z-index: 1;
     position: absolute;
         top: calc(100vw * 230/720);
-        right: calc(100vw * 30/720);
+        right: calc(100vw * 10/720);
         
 }
 #previous_slide{
@@ -535,7 +535,7 @@ body{
 
 
 .fa-circle-plus{
-    color: rgb(18, 51, 28);
+    color: var(--green);
     position: absolute;
     font-size: calc(100vw * 60/720);
     right: calc(100vw * 25/720);
